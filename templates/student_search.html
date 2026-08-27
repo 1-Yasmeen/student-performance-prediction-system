@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}
+Student Prediction
+{% endblock %}
+
+{% block content %}
+
+<div class="prediction-container">
+
+    <h1>
+        Student Performance Prediction
+    </h1>
+
+    <p>
+        Selected Dataset:
+        <strong>{{ source }}</strong>
+    </p>
+
+    <!-- <form
+        method="POST"
+        action="{{ url_for('predict') }}"
+    >
+
+        <input
+            type="hidden"
+            name="source"
+            value="{{ source }}"
+        >
+
+        <label for="student_id">
+            Enter Student ID
+        </label>
+
+        <input
+            type="text"
+            id="student_id"
+            name="student_id"
+            placeholder="Enter Student ID"
+            autocomplete="off"
+            required
+        >
+
+        <button type="submit">
+            Predict Performance
+        </button>
+
+    </form> -->
+
+
+
+
+
+
+
+
+    <form method="POST" action="{{ url_for('predict') }}">
+
+    <input
+        type="hidden"
+        name="source"
+        value="{{ source }}"
+    >
+
+    <label for="student_id">
+        Student ID
+    </label>
+
+    <input
+        type="text"
+        id="student_id"
+        name="student_id"
+        required
+    >
+
+    <button
+        type="submit"
+        class="btn"
+    >
+        Predict Performance
+    </button>
+
+</form>
+
+</div>
+
+{% endblock %}

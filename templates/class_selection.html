@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}
+Select Dataset
+{% endblock %}
+
+{% block content %}
+
+<div class="selection-container">
+
+    <h1>
+        Select Student Dataset
+    </h1>
+
+    <p>
+        Choose which student data you want to use for class performance.
+    </p>
+
+    {% if error %}
+
+        <p class="error-message">
+            {{ error }}
+        </p>
+
+    {% endif %}
+
+    <form
+        method="POST"
+        action="{{ url_for('class_selection') }}"
+    >
+
+        <select
+            name="source"
+            required
+        >
+
+            <option value="" disabled selected>
+                --Select Dataset--
+            </option>
+
+            <option value="historical">
+                Historical Students
+            </option>
+
+            <option value="current">
+                Current Students
+            </option>
+
+            <option value="real">
+                Real Students
+            </option>
+
+        </select>
+
+
+        <button
+            type="submit"
+            class="btn btn-accent start-prediction-button"
+        >
+            Continue
+        </button>
+
+    </form>
+
+</div>
+
+{% endblock %}

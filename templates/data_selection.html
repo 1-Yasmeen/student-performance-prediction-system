@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+
+{% block title %}
+Select Dataset
+{% endblock %}
+
+{% block content %}
+
+<div class="selection-container">
+
+    {% if selection_type == "class" %}
+
+        <h1>Select Dataset for Class Performance</h1>
+
+        <p>
+            Choose which student dataset you want to analyze
+        </p>
+
+    {% else %}
+
+        <h1>Select Student Dataset</h1>
+
+        <p>
+            Choose which student data you want to analyze
+        </p>
+
+    {% endif %}
+
+
+    {% if error %}
+        <div class="error-message">
+            {{ error }}
+        </div>
+    {% endif %}
+
+
+    <form method="POST"
+          action="{% if selection_type == 'class' %}
+                      {{ url_for('class_data_selection') }}
+                  {% else %}
+                      {{ url_for('student_data_selection') }}
+                  {% endif %}">
+
+        <select name="source" required>
+
+            <option value="" disabled selected>
+                -- Select Dataset --
+            </option>
+
+            <option value="historical">
+                Historical Students
+            </option>
+
+            <option value="current">
+                Current Students
+            </option>
+
+            <option value="real">
+                Real Students
+            </option>
+
+        </select>
+
+
+        <button type="submit"
+                class="btn btn-accent start-prediction-button">
+
+            {% if selection_type == "class" %}
+                View Class Performance
+            {% else %}
+                Continue
+            {% endif %}
+
+        </button>
+
+    </form>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,2001 @@
+student_id,gender,age,attendance,study_hours,assignment_score,internal_marks,previous_marks,backlogs,extracurricular,final_result
+HIS0001,Female,17,85,7.2,92,92,84,0,Yes,Excellent
+HIS0002,Female,23,87,5.7,85,91,100,0,Yes,Excellent
+HIS0003,Male,20,90,7.1,95,93,84,0,No,Excellent
+HIS0004,Female,23,96,7.5,93,86,94,0,No,Excellent
+HIS0005,Male,20,41,1.4,32,31,37,4,Yes,At Risk
+HIS0006,Female,22,74,3.9,66,60,61,1,Yes,Good
+HIS0007,Male,22,90,6.6,92,90,94,0,No,Excellent
+HIS0008,Female,18,61,2.7,56,65,62,1,Yes,Average
+HIS0009,Female,22,62,2.8,60,54,44,2,Yes,Poor
+HIS0010,Male,23,43,1.8,42,41,37,3,No,At Risk
+HIS0011,Female,21,89,6.9,98,87,92,0,No,Excellent
+HIS0012,Female,17,88,7.0,93,95,83,0,No,Excellent
+HIS0013,Female,23,76,4.3,71,58,70,1,Yes,Average
+HIS0014,Male,18,75,5.2,85,70,68,1,No,Good
+HIS0015,Female,21,32,0.6,45,32,47,3,Yes,At Risk
+HIS0016,Female,20,83,5.1,89,83,71,0,No,Excellent
+HIS0017,Male,17,44,0.7,37,32,40,2,Yes,At Risk
+HIS0018,Female,18,86,5.7,86,95,82,0,No,Excellent
+HIS0019,Male,17,34,1.6,48,48,45,3,No,At Risk
+HIS0020,Female,23,98,6.1,98,99,81,0,Yes,Excellent
+HIS0021,Male,23,92,5.6,99,89,93,0,No,Excellent
+HIS0022,Male,20,99,7.4,88,86,100,0,Yes,Excellent
+HIS0023,Female,23,65,1.4,52,41,45,2,Yes,At Risk
+HIS0024,Male,21,59,1.8,57,55,44,1,No,Poor
+HIS0025,Male,23,31,1.6,31,31,48,5,Yes,At Risk
+HIS0026,Male,20,77,5.2,77,82,68,0,Yes,Excellent
+HIS0027,Male,22,48,1.3,38,36,40,3,No,At Risk
+HIS0028,Male,21,74,2.9,57,55,64,2,Yes,Poor
+HIS0029,Female,21,64,4.8,57,62,61,1,Yes,Average
+HIS0030,Male,22,30,1.5,47,39,33,3,No,At Risk
+HIS0031,Female,19,34,0.9,49,36,40,3,No,At Risk
+HIS0032,Female,18,87,6.9,93,86,80,0,Yes,Excellent
+HIS0033,Male,20,63,2.1,43,42,44,3,Yes,At Risk
+HIS0034,Female,21,76,4.6,71,81,71,0,Yes,Good
+HIS0035,Male,19,82,5.7,75,83,65,0,No,Excellent
+HIS0036,Female,23,78,4.8,71,85,72,0,No,Excellent
+HIS0037,Female,22,82,4.0,76,82,75,1,Yes,Good
+HIS0038,Female,17,42,1.5,47,40,30,2,No,At Risk
+HIS0039,Male,19,98,6.0,95,98,99,0,No,Excellent
+HIS0040,Female,22,98,5.0,91,96,93,0,No,Excellent
+HIS0041,Female,22,94,6.5,98,95,92,0,Yes,Excellent
+HIS0042,Male,20,55,2.2,49,52,57,1,No,Poor
+HIS0043,Male,19,49,1.5,44,44,44,3,No,At Risk
+HIS0044,Male,17,51,1.4,40,32,37,4,Yes,At Risk
+HIS0045,Female,18,92,8.0,87,99,93,0,No,Excellent
+HIS0046,Male,23,75,5.8,73,83,72,0,No,Good
+HIS0047,Female,20,99,5.4,99,95,94,0,No,Excellent
+HIS0048,Female,17,67,4.5,63,71,65,2,Yes,Average
+HIS0049,Female,22,67,2.8,65,72,52,0,Yes,Average
+HIS0050,Male,23,81,4.1,83,80,82,1,No,Good
+HIS0051,Female,19,62,2.8,58,40,58,2,No,Poor
+HIS0052,Female,20,63,2.1,57,59,47,2,Yes,Poor
+HIS0053,Male,17,97,6.0,97,90,94,0,Yes,Excellent
+HIS0054,Female,19,54,2.7,45,41,48,2,No,At Risk
+HIS0055,Male,19,72,2.8,68,63,52,1,Yes,Average
+HIS0056,Male,21,77,5.6,90,71,89,0,Yes,Excellent
+HIS0057,Male,21,82,4.3,73,88,71,1,No,Good
+HIS0058,Female,20,53,1.6,35,39,33,2,No,At Risk
+HIS0059,Male,19,77,5.2,90,77,68,1,Yes,Excellent
+HIS0060,Female,17,43,1.5,32,46,50,4,Yes,At Risk
+HIS0061,Female,20,61,2.3,54,44,53,1,No,Poor
+HIS0062,Female,19,58,1.6,47,42,48,2,Yes,At Risk
+HIS0063,Female,21,100,7.6,90,100,86,0,No,Excellent
+HIS0064,Male,22,77,2.0,61,57,57,2,No,Poor
+HIS0065,Female,22,65,1.9,40,42,49,1,No,Poor
+HIS0066,Female,19,41,1.2,46,41,43,4,No,At Risk
+HIS0067,Male,22,67,2.4,61,65,53,2,Yes,Poor
+HIS0068,Male,19,58,2.4,56,59,49,1,Yes,Poor
+HIS0069,Female,22,84,4.0,87,74,73,0,Yes,Excellent
+HIS0070,Female,18,90,4.2,70,88,74,1,No,Good
+HIS0071,Male,18,93,7.8,100,88,82,0,No,Excellent
+HIS0072,Female,20,84,4.2,77,73,82,1,Yes,Good
+HIS0073,Male,23,59,2.7,53,49,58,3,Yes,Poor
+HIS0074,Male,20,81,4.5,72,75,72,0,Yes,Good
+HIS0075,Male,19,65,1.6,47,49,49,3,No,At Risk
+HIS0076,Male,17,51,1.7,36,43,33,3,Yes,At Risk
+HIS0077,Female,21,90,7.4,94,99,83,0,No,Excellent
+HIS0078,Male,18,45,1.2,49,31,43,4,No,At Risk
+HIS0079,Female,19,48,1.9,38,48,31,3,No,At Risk
+HIS0080,Female,22,88,5.3,85,72,80,1,No,Excellent
+HIS0081,Female,19,90,6.0,100,94,92,0,No,Excellent
+HIS0082,Male,18,63,4.9,67,71,50,2,No,Average
+HIS0083,Male,19,41,1.4,45,50,44,2,Yes,At Risk
+HIS0084,Male,21,65,1.2,60,59,47,3,Yes,At Risk
+HIS0085,Female,21,52,1.4,43,54,43,3,Yes,At Risk
+HIS0086,Male,21,73,4.5,70,62,64,2,Yes,Average
+HIS0087,Female,22,53,1.8,32,38,43,4,No,At Risk
+HIS0088,Female,21,78,3.7,70,59,64,2,No,Average
+HIS0089,Male,19,42,1.2,40,36,37,5,Yes,At Risk
+HIS0090,Female,23,62,1.8,60,44,55,1,Yes,Poor
+HIS0091,Female,23,99,5.3,99,85,84,0,Yes,Excellent
+HIS0092,Female,23,70,3.9,67,75,52,1,No,Average
+HIS0093,Male,23,31,1.4,37,50,39,3,Yes,At Risk
+HIS0094,Female,19,99,5.5,94,85,81,0,Yes,Excellent
+HIS0095,Female,21,54,1.5,53,58,45,1,Yes,Poor
+HIS0096,Male,23,90,5.8,74,77,79,1,No,Excellent
+HIS0097,Female,22,59,2.4,45,42,54,2,No,Poor
+HIS0098,Female,21,74,4.5,61,67,65,0,Yes,Good
+HIS0099,Female,23,69,2.1,67,63,50,2,Yes,Average
+HIS0100,Male,22,67,3.8,66,62,70,0,No,Good
+HIS0101,Female,19,86,5.9,99,86,98,0,Yes,Excellent
+HIS0102,Female,23,55,1.4,57,51,56,3,No,At Risk
+HIS0103,Female,23,59,2.5,50,43,54,1,Yes,Poor
+HIS0104,Female,21,41,0.6,42,30,38,2,No,At Risk
+HIS0105,Male,22,61,1.2,47,55,40,3,No,At Risk
+HIS0106,Female,20,99,7.7,94,98,83,0,Yes,Excellent
+HIS0107,Male,20,88,5.7,89,97,94,0,No,Excellent
+HIS0108,Male,23,100,6.8,93,86,91,0,No,Excellent
+HIS0109,Female,18,63,4.9,66,72,70,1,Yes,Good
+HIS0110,Male,17,99,5.3,91,85,81,0,Yes,Excellent
+HIS0111,Male,21,36,1.4,37,40,34,2,No,At Risk
+HIS0112,Female,17,65,2.3,55,59,50,1,Yes,Average
+HIS0113,Female,21,83,4.1,83,86,68,0,No,Excellent
+HIS0114,Male,17,33,1.2,37,49,31,4,No,At Risk
+HIS0115,Male,17,62,1.9,43,55,54,1,Yes,Poor
+HIS0116,Female,20,83,5.2,88,87,87,1,No,Excellent
+HIS0117,Male,20,49,1.1,33,50,50,3,No,At Risk
+HIS0118,Male,22,74,3.2,58,65,63,1,No,Average
+HIS0119,Male,21,52,1.2,42,42,53,1,No,At Risk
+HIS0120,Female,19,47,1.0,33,43,41,5,Yes,At Risk
+HIS0121,Female,21,91,5.5,100,92,83,0,No,Excellent
+HIS0122,Male,19,88,5.7,89,89,86,0,No,Excellent
+HIS0123,Male,22,70,3.1,60,59,68,2,No,Poor
+HIS0124,Female,19,87,7.2,91,97,93,0,No,Excellent
+HIS0125,Male,19,78,3.8,56,59,55,2,Yes,Average
+HIS0126,Female,17,63,2.0,54,53,48,1,Yes,Poor
+HIS0127,Male,19,78,3.5,64,56,57,1,Yes,Average
+HIS0128,Male,18,79,5.5,79,80,68,0,No,Excellent
+HIS0129,Male,20,57,2.0,51,42,52,3,Yes,At Risk
+HIS0130,Female,18,95,6.7,97,98,89,0,No,Excellent
+HIS0131,Female,21,44,1.7,41,32,43,2,Yes,At Risk
+HIS0132,Male,21,97,7.6,95,92,90,0,Yes,Excellent
+HIS0133,Male,19,36,1.9,41,41,50,3,Yes,At Risk
+HIS0134,Female,22,80,5.2,90,72,70,1,No,Excellent
+HIS0135,Male,20,50,1.5,49,40,50,4,Yes,At Risk
+HIS0136,Female,20,59,2.6,58,41,51,3,Yes,At Risk
+HIS0137,Male,20,86,6.1,94,87,100,0,No,Excellent
+HIS0138,Male,23,50,0.8,49,45,46,3,Yes,At Risk
+HIS0139,Male,19,62,3.5,60,56,57,2,No,Average
+HIS0140,Female,17,69,3.2,65,74,51,2,No,Poor
+HIS0141,Male,19,51,1.1,38,49,34,4,Yes,At Risk
+HIS0142,Female,22,80,4.1,67,59,69,2,Yes,Average
+HIS0143,Female,17,64,4.0,71,57,70,2,No,Average
+HIS0144,Male,18,69,2.5,61,65,74,1,Yes,Average
+HIS0145,Male,18,94,7.5,88,86,90,0,No,Excellent
+HIS0146,Female,23,55,1.9,44,31,43,4,Yes,At Risk
+HIS0147,Female,23,57,2.1,49,55,46,2,No,Poor
+HIS0148,Female,23,63,2.9,46,59,44,2,Yes,Poor
+HIS0149,Female,21,77,4.8,71,58,59,0,Yes,Good
+HIS0150,Female,21,88,4.2,77,84,76,0,No,Good
+HIS0151,Female,23,67,3.2,57,66,57,0,No,Average
+HIS0152,Male,17,79,4.1,85,74,89,1,No,Good
+HIS0153,Male,17,93,5.6,89,98,83,0,Yes,Excellent
+HIS0154,Male,22,88,5.3,89,84,67,0,No,Excellent
+HIS0155,Female,18,48,0.9,34,39,43,2,No,At Risk
+HIS0156,Female,22,96,5.2,85,97,95,0,No,Excellent
+HIS0157,Male,19,96,7.4,96,92,100,0,No,Excellent
+HIS0158,Female,17,40,1.7,35,44,45,3,Yes,At Risk
+HIS0159,Female,19,66,2.1,61,56,60,1,No,Average
+HIS0160,Female,22,91,5.9,86,95,88,0,No,Excellent
+HIS0161,Female,17,62,1.7,45,55,55,2,No,At Risk
+HIS0162,Female,21,55,2.1,50,43,42,2,No,At Risk
+HIS0163,Female,19,55,2.4,51,54,41,3,No,Poor
+HIS0164,Female,17,87,7.0,97,96,96,0,Yes,Excellent
+HIS0165,Male,22,77,4.5,90,81,76,1,Yes,Excellent
+HIS0166,Female,22,61,1.7,42,58,44,3,No,At Risk
+HIS0167,Male,19,67,4.9,55,60,65,2,No,Average
+HIS0168,Male,23,74,2.6,74,64,72,1,Yes,Average
+HIS0169,Female,19,99,5.5,99,87,90,0,Yes,Excellent
+HIS0170,Female,17,80,5.6,86,77,68,0,Yes,Excellent
+HIS0171,Female,20,77,3.7,69,72,54,2,Yes,Average
+HIS0172,Female,22,63,2.5,58,42,44,2,Yes,Poor
+HIS0173,Male,23,41,0.7,47,50,48,3,Yes,At Risk
+HIS0174,Female,18,89,5.9,90,95,87,0,No,Excellent
+HIS0175,Male,18,38,0.7,39,49,47,2,Yes,At Risk
+HIS0176,Female,22,53,1.9,40,48,31,2,Yes,At Risk
+HIS0177,Male,23,88,5.2,70,85,85,1,No,Excellent
+HIS0178,Male,19,59,1.9,41,45,54,2,No,Poor
+HIS0179,Male,19,34,1.0,40,41,42,3,No,At Risk
+HIS0180,Female,23,89,4.2,84,77,69,0,Yes,Good
+HIS0181,Female,21,43,0.9,35,40,48,4,Yes,At Risk
+HIS0182,Male,21,65,2.8,55,40,42,2,No,Poor
+HIS0183,Male,23,61,2.2,70,74,70,2,No,Poor
+HIS0184,Male,21,98,5.4,93,96,92,0,Yes,Excellent
+HIS0185,Male,18,36,1.0,39,32,42,5,No,At Risk
+HIS0186,Male,17,97,6.1,95,96,84,0,No,Excellent
+HIS0187,Female,18,89,7.1,100,99,84,0,No,Excellent
+HIS0188,Male,19,59,2.2,56,56,57,2,No,Poor
+HIS0189,Female,19,63,4.9,73,64,75,2,Yes,Good
+HIS0190,Male,17,48,0.8,31,48,45,3,No,At Risk
+HIS0191,Male,20,52,0.7,30,44,40,5,Yes,At Risk
+HIS0192,Female,21,54,1.4,45,31,34,3,No,At Risk
+HIS0193,Female,21,60,2.9,54,57,50,3,No,Poor
+HIS0194,Male,22,56,2.9,48,57,49,1,No,Poor
+HIS0195,Female,23,60,2.0,57,48,49,1,No,Poor
+HIS0196,Male,23,84,4.1,72,81,79,1,No,Good
+HIS0197,Male,22,38,1.9,38,34,33,3,Yes,At Risk
+HIS0198,Male,20,76,4.2,80,85,68,0,Yes,Excellent
+HIS0199,Male,21,65,2.3,49,50,49,3,Yes,At Risk
+HIS0200,Male,17,90,6.3,90,86,92,0,Yes,Excellent
+HIS0201,Female,19,78,3.8,65,64,64,2,No,Average
+HIS0202,Female,21,78,4.7,84,90,73,0,Yes,Excellent
+HIS0203,Male,18,80,5.2,90,82,78,1,Yes,Excellent
+HIS0204,Female,19,90,4.6,77,70,73,1,Yes,Good
+HIS0205,Male,20,78,4.2,55,63,70,1,Yes,Average
+HIS0206,Male,18,65,3.2,71,64,72,0,No,Good
+HIS0207,Male,21,90,4.3,89,81,78,1,Yes,Good
+HIS0208,Male,18,61,1.2,58,43,41,3,Yes,At Risk
+HIS0209,Female,18,76,3.3,61,73,65,0,No,Average
+HIS0210,Female,23,43,1.2,31,47,44,4,Yes,At Risk
+HIS0211,Female,17,91,6.7,86,98,91,0,Yes,Excellent
+HIS0212,Female,20,73,2.5,59,75,73,2,No,Average
+HIS0213,Female,21,62,1.2,57,44,60,2,Yes,At Risk
+HIS0214,Male,20,82,5.7,70,79,79,1,No,Good
+HIS0215,Male,18,64,2.8,58,56,75,2,No,Average
+HIS0216,Female,20,77,4.2,71,84,84,0,Yes,Good
+HIS0217,Female,21,81,5.5,71,74,81,1,Yes,Excellent
+HIS0218,Female,19,54,1.5,40,37,39,3,Yes,At Risk
+HIS0219,Female,22,90,6.9,98,100,81,0,No,Excellent
+HIS0220,Female,23,63,1.3,52,45,57,2,Yes,At Risk
+HIS0221,Female,18,89,5.8,87,83,78,0,No,Excellent
+HIS0222,Female,20,80,2.2,69,66,52,2,Yes,Poor
+HIS0223,Female,19,49,0.6,32,36,48,3,No,At Risk
+HIS0224,Female,23,91,7.8,88,100,87,0,No,Excellent
+HIS0225,Female,20,72,3.4,75,66,59,1,No,Good
+HIS0226,Male,22,100,7.3,95,91,91,0,No,Excellent
+HIS0227,Male,19,75,4.5,88,88,88,1,No,Good
+HIS0228,Female,20,87,5.1,77,85,82,1,No,Excellent
+HIS0229,Male,23,86,4.3,87,85,70,0,Yes,Good
+HIS0230,Female,19,98,5.4,92,87,84,0,Yes,Excellent
+HIS0231,Female,21,100,7.0,85,85,97,0,Yes,Excellent
+HIS0232,Male,21,60,3.5,68,60,53,0,Yes,Average
+HIS0233,Male,22,38,1.7,38,42,32,4,No,At Risk
+HIS0234,Female,20,84,5.4,72,90,85,0,Yes,Excellent
+HIS0235,Female,21,45,0.6,30,35,32,5,No,At Risk
+HIS0236,Male,18,86,5.7,100,93,81,0,No,Excellent
+HIS0237,Female,18,60,4.9,73,59,74,2,No,Average
+HIS0238,Female,17,37,1.4,42,47,40,5,Yes,At Risk
+HIS0239,Female,23,98,5.7,87,95,99,0,No,Excellent
+HIS0240,Female,23,65,1.5,57,52,53,1,No,Poor
+HIS0241,Female,17,77,4.2,74,82,87,0,No,Good
+HIS0242,Male,20,85,7.8,99,96,88,0,Yes,Excellent
+HIS0243,Male,19,63,1.2,42,51,57,1,No,Poor
+HIS0244,Female,18,62,2.6,57,47,58,3,Yes,Poor
+HIS0245,Female,19,83,4.6,85,74,67,0,No,Good
+HIS0246,Male,18,52,1.7,47,60,55,3,Yes,At Risk
+HIS0247,Female,23,60,4.8,65,74,62,1,No,Good
+HIS0248,Female,19,34,1.0,49,36,45,4,Yes,At Risk
+HIS0249,Male,22,57,1.7,48,52,51,1,Yes,Poor
+HIS0250,Female,18,30,1.9,44,36,44,4,Yes,At Risk
+HIS0251,Female,21,67,2.8,59,68,75,1,Yes,Average
+HIS0252,Male,22,63,2.1,51,57,59,3,Yes,At Risk
+HIS0253,Female,17,65,3.9,56,73,70,2,No,Average
+HIS0254,Male,19,88,5.8,92,99,91,0,No,Excellent
+HIS0255,Female,20,100,5.3,98,87,83,0,No,Excellent
+HIS0256,Female,17,90,4.7,73,84,88,1,No,Good
+HIS0257,Female,20,85,7.5,88,90,87,0,Yes,Excellent
+HIS0258,Male,20,87,5.3,75,90,86,1,No,Good
+HIS0259,Male,19,43,1.1,36,36,38,2,Yes,At Risk
+HIS0260,Female,21,66,3.4,63,70,66,2,No,Average
+HIS0261,Male,22,53,1.7,54,59,45,3,No,Poor
+HIS0262,Female,20,85,4.2,79,73,70,1,Yes,Good
+HIS0263,Female,18,34,1.4,43,35,45,3,Yes,At Risk
+HIS0264,Male,23,85,5.7,89,71,76,0,No,Excellent
+HIS0265,Male,23,65,1.8,55,53,54,2,Yes,Poor
+HIS0266,Female,21,84,4.1,77,87,74,0,No,Excellent
+HIS0267,Male,20,33,1.4,38,47,41,2,No,At Risk
+HIS0268,Male,23,92,5.9,86,99,88,0,Yes,Excellent
+HIS0269,Male,23,81,5.6,88,81,87,1,Yes,Excellent
+HIS0270,Female,19,81,5.6,88,81,82,1,Yes,Excellent
+HIS0271,Male,22,38,1.9,46,33,34,5,Yes,At Risk
+HIS0272,Female,22,82,4.3,80,77,89,1,No,Good
+HIS0273,Female,20,62,1.9,60,42,52,3,No,At Risk
+HIS0274,Female,18,78,2.0,57,69,70,2,No,Poor
+HIS0275,Female,23,56,2.0,50,49,50,3,Yes,Poor
+HIS0276,Female,17,61,2.1,75,69,50,0,Yes,Average
+HIS0277,Female,19,56,3.0,44,60,49,1,No,Poor
+HIS0278,Male,22,96,7.0,90,86,92,0,Yes,Excellent
+HIS0279,Male,22,85,5.6,87,89,98,0,No,Excellent
+HIS0280,Male,22,63,5.0,68,59,65,0,Yes,Good
+HIS0281,Male,21,88,5.9,94,89,92,0,Yes,Excellent
+HIS0282,Female,23,89,4.7,76,90,88,0,No,Excellent
+HIS0283,Female,23,77,5.8,74,73,83,1,No,Excellent
+HIS0284,Female,18,82,4.6,72,77,82,1,Yes,Excellent
+HIS0285,Female,17,49,1.3,42,39,50,2,Yes,At Risk
+HIS0286,Female,23,90,5.3,72,86,65,1,No,Good
+HIS0287,Female,18,43,1.0,35,45,32,2,Yes,At Risk
+HIS0288,Male,22,86,7.8,97,94,100,0,No,Excellent
+HIS0289,Female,20,47,1.4,38,32,39,2,Yes,At Risk
+HIS0290,Male,18,50,1.6,50,50,32,4,No,At Risk
+HIS0291,Male,18,98,5.3,86,94,85,0,Yes,Excellent
+HIS0292,Male,19,61,2.0,48,45,51,1,No,Poor
+HIS0293,Female,17,58,2.0,48,58,60,1,No,Poor
+HIS0294,Male,17,55,1.7,48,43,58,3,Yes,At Risk
+HIS0295,Female,18,92,5.1,96,97,84,0,Yes,Excellent
+HIS0296,Male,18,67,3.2,65,63,52,2,No,Poor
+HIS0297,Female,17,76,5.9,72,84,74,1,No,Good
+HIS0298,Female,23,66,2.9,64,74,57,1,No,Average
+HIS0299,Male,23,82,4.3,83,70,72,1,Yes,Good
+HIS0300,Female,17,59,1.2,56,47,53,2,Yes,At Risk
+HIS0301,Male,22,92,7.7,98,96,94,0,Yes,Excellent
+HIS0302,Female,23,52,2.2,41,53,44,1,No,Poor
+HIS0303,Male,18,60,1.6,48,47,42,1,Yes,Poor
+HIS0304,Female,20,90,6.3,95,98,83,0,Yes,Excellent
+HIS0305,Male,22,63,2.3,64,74,51,0,No,Average
+HIS0306,Female,21,86,4.8,71,79,73,0,Yes,Excellent
+HIS0307,Male,18,37,0.6,33,34,33,2,Yes,At Risk
+HIS0308,Male,17,61,2.4,60,42,58,3,No,At Risk
+HIS0309,Male,21,89,5.6,72,80,68,0,No,Excellent
+HIS0310,Female,19,62,2.0,52,53,45,2,Yes,Poor
+HIS0311,Female,21,54,1.1,59,59,47,3,No,At Risk
+HIS0312,Male,20,51,1.2,52,44,53,1,Yes,Poor
+HIS0313,Female,18,75,3.6,70,66,68,2,No,Average
+HIS0314,Male,18,95,6.8,85,93,81,0,No,Excellent
+HIS0315,Male,18,92,7.0,93,86,87,0,No,Excellent
+HIS0316,Male,23,40,1.7,41,48,30,4,Yes,At Risk
+HIS0317,Female,17,59,1.4,41,42,41,1,Yes,At Risk
+HIS0318,Male,18,79,2.6,59,65,72,0,No,Average
+HIS0319,Female,21,52,1.9,33,46,41,2,No,At Risk
+HIS0320,Female,18,95,5.9,89,90,93,0,No,Excellent
+HIS0321,Male,18,35,1.1,39,34,35,2,No,At Risk
+HIS0322,Female,22,40,1.9,49,37,50,2,No,At Risk
+HIS0323,Male,19,92,6.0,95,90,100,0,No,Excellent
+HIS0324,Female,20,82,5.4,81,78,90,0,Yes,Excellent
+HIS0325,Female,23,55,2.8,55,52,51,3,No,At Risk
+HIS0326,Male,19,50,1.6,37,35,44,2,Yes,At Risk
+HIS0327,Male,19,63,2.2,60,67,55,2,Yes,Poor
+HIS0328,Male,17,49,1.8,30,43,50,3,No,At Risk
+HIS0329,Female,19,66,4.9,68,72,73,2,No,Good
+HIS0330,Male,20,78,4.1,88,87,80,0,Yes,Excellent
+HIS0331,Female,17,94,7.5,100,91,83,0,Yes,Excellent
+HIS0332,Female,18,53,1.6,52,55,55,3,No,At Risk
+HIS0333,Male,23,72,3.1,69,56,58,1,No,Average
+HIS0334,Male,21,78,2.2,58,57,71,1,No,Average
+HIS0335,Male,20,97,7.5,98,100,98,0,No,Excellent
+HIS0336,Male,20,89,5.4,99,90,85,0,Yes,Excellent
+HIS0337,Female,21,98,5.6,89,93,90,0,Yes,Excellent
+HIS0338,Female,18,68,3.6,55,74,68,2,No,Average
+HIS0339,Female,20,78,5.8,88,73,90,1,No,Excellent
+HIS0340,Female,19,65,1.1,48,52,44,3,No,At Risk
+HIS0341,Female,23,76,5.5,78,81,65,1,No,Good
+HIS0342,Female,22,53,2.9,47,44,49,3,No,At Risk
+HIS0343,Male,17,52,1.4,46,53,55,3,No,At Risk
+HIS0344,Male,18,76,3.2,71,73,50,0,Yes,Average
+HIS0345,Female,22,99,5.2,96,91,88,0,No,Excellent
+HIS0346,Male,23,85,5.7,100,99,85,0,No,Excellent
+HIS0347,Male,22,62,2.9,67,56,55,2,Yes,Poor
+HIS0348,Male,21,83,5.3,86,70,89,0,No,Excellent
+HIS0349,Female,18,92,5.8,94,93,93,0,No,Excellent
+HIS0350,Female,21,59,2.4,59,52,58,1,Yes,Average
+HIS0351,Female,23,49,0.9,33,45,32,4,No,At Risk
+HIS0352,Female,22,68,4.0,75,64,56,0,Yes,Average
+HIS0353,Female,22,64,4.2,75,70,59,1,No,Good
+HIS0354,Male,19,91,6.0,92,100,91,0,Yes,Excellent
+HIS0355,Male,22,100,5.4,93,90,90,0,Yes,Excellent
+HIS0356,Male,20,73,4.4,65,66,58,2,No,Average
+HIS0357,Male,18,87,6.4,91,88,92,0,No,Excellent
+HIS0358,Female,19,85,4.8,88,84,69,1,Yes,Good
+HIS0359,Male,20,85,5.3,70,84,73,0,Yes,Excellent
+HIS0360,Male,21,89,6.8,98,97,93,0,No,Excellent
+HIS0361,Male,18,86,5.9,80,86,71,0,Yes,Excellent
+HIS0362,Male,19,69,2.4,67,71,68,1,Yes,Average
+HIS0363,Female,19,74,4.2,74,71,60,1,Yes,Good
+HIS0364,Male,21,80,5.9,82,70,72,0,Yes,Excellent
+HIS0365,Male,22,35,0.7,50,31,42,4,Yes,At Risk
+HIS0366,Female,20,85,5.1,88,98,94,0,Yes,Excellent
+HIS0367,Female,21,81,5.4,90,70,74,1,Yes,Excellent
+HIS0368,Male,20,52,0.7,33,46,49,2,No,At Risk
+HIS0369,Male,21,81,5.6,86,76,76,1,No,Good
+HIS0370,Male,17,56,2.4,55,50,47,1,Yes,Poor
+HIS0371,Male,20,51,1.2,32,46,32,2,No,At Risk
+HIS0372,Female,20,68,3.4,58,60,51,1,No,Average
+HIS0373,Female,21,88,7.6,86,85,84,0,No,Excellent
+HIS0374,Female,23,62,3.1,65,60,53,1,No,Average
+HIS0375,Male,20,65,2.6,60,45,43,1,Yes,Poor
+HIS0376,Male,23,45,1.7,44,35,49,5,No,At Risk
+HIS0377,Female,17,90,5.8,73,83,79,0,Yes,Excellent
+HIS0378,Male,20,54,1.6,48,37,40,2,No,At Risk
+HIS0379,Female,23,80,3.2,72,74,51,0,Yes,Good
+HIS0380,Male,21,55,1.1,55,50,47,2,No,At Risk
+HIS0381,Female,20,62,2.6,42,54,54,3,No,At Risk
+HIS0382,Male,23,63,4.9,75,55,53,1,No,Average
+HIS0383,Female,19,94,7.7,91,99,90,0,Yes,Excellent
+HIS0384,Male,17,54,1.4,45,41,44,2,Yes,At Risk
+HIS0385,Male,20,71,4.5,64,72,66,1,Yes,Average
+HIS0386,Female,23,88,4.2,89,76,71,0,No,Good
+HIS0387,Male,20,85,4.2,83,71,85,0,No,Excellent
+HIS0388,Male,20,86,6.7,98,100,96,0,Yes,Excellent
+HIS0389,Female,19,49,1.8,46,42,43,3,No,At Risk
+HIS0390,Male,18,54,1.3,59,56,49,3,No,At Risk
+HIS0391,Female,21,84,5.4,74,90,70,1,Yes,Excellent
+HIS0392,Female,18,51,1.6,47,39,43,2,Yes,At Risk
+HIS0393,Male,23,86,5.6,90,94,88,0,Yes,Excellent
+HIS0394,Female,22,31,1.0,44,33,49,3,No,At Risk
+HIS0395,Female,23,97,6.2,95,86,80,0,Yes,Excellent
+HIS0396,Male,22,86,5.5,87,89,71,0,No,Excellent
+HIS0397,Female,18,90,7.9,88,97,81,0,No,Excellent
+HIS0398,Male,23,83,4.0,84,74,66,0,No,Excellent
+HIS0399,Male,18,51,1.0,48,47,41,2,No,At Risk
+HIS0400,Male,18,32,1.7,35,43,47,5,Yes,At Risk
+HIS0401,Female,20,70,3.1,61,74,66,1,Yes,Average
+HIS0402,Female,17,82,5.9,80,82,90,0,No,Excellent
+HIS0403,Male,19,54,1.1,46,44,45,2,No,At Risk
+HIS0404,Male,23,32,1.9,35,47,47,2,Yes,At Risk
+HIS0405,Female,22,53,1.4,53,60,42,3,Yes,At Risk
+HIS0406,Male,19,61,2.3,56,60,75,1,Yes,Average
+HIS0407,Male,21,62,1.9,52,53,50,1,No,Poor
+HIS0408,Female,21,87,7.3,86,87,91,0,No,Excellent
+HIS0409,Male,18,94,7.3,99,97,92,0,No,Excellent
+HIS0410,Male,17,59,2.9,44,49,60,2,Yes,Poor
+HIS0411,Female,22,85,6.7,97,87,89,0,No,Excellent
+HIS0412,Male,23,34,0.7,37,49,38,3,Yes,At Risk
+HIS0413,Female,19,44,1.5,32,39,32,4,Yes,At Risk
+HIS0414,Female,20,64,4.0,62,58,59,2,Yes,Average
+HIS0415,Female,18,60,2.2,49,58,44,3,No,At Risk
+HIS0416,Female,20,95,5.7,92,98,88,0,Yes,Excellent
+HIS0417,Male,23,64,1.7,49,55,57,1,Yes,Poor
+HIS0418,Male,23,64,4.7,61,63,73,2,Yes,Average
+HIS0419,Female,21,50,0.5,48,48,42,3,Yes,At Risk
+HIS0420,Female,21,45,1.5,34,41,42,3,No,At Risk
+HIS0421,Male,18,32,1.1,46,30,37,3,Yes,At Risk
+HIS0422,Male,17,48,1.5,34,45,41,2,Yes,At Risk
+HIS0423,Female,17,71,2.7,61,71,75,1,No,Average
+HIS0424,Female,19,95,5.3,93,93,98,0,No,Excellent
+HIS0425,Female,19,50,1.8,32,46,38,5,Yes,At Risk
+HIS0426,Male,17,75,4.4,74,55,66,0,No,Good
+HIS0427,Male,20,50,0.9,34,35,35,4,Yes,At Risk
+HIS0428,Female,17,63,3.4,70,70,56,2,Yes,Average
+HIS0429,Male,19,76,4.3,88,75,69,0,Yes,Good
+HIS0430,Female,21,87,5.2,88,90,65,1,Yes,Excellent
+HIS0431,Female,18,65,1.3,53,59,44,3,Yes,Poor
+HIS0432,Male,18,74,3.8,57,62,62,1,Yes,Average
+HIS0433,Male,23,46,1.5,34,49,33,3,No,At Risk
+HIS0434,Female,19,46,1.6,32,45,34,2,No,At Risk
+HIS0435,Female,20,98,5.7,100,97,91,0,No,Excellent
+HIS0436,Male,21,77,4.6,87,83,73,0,Yes,Good
+HIS0437,Female,19,97,7.0,95,98,91,0,Yes,Excellent
+HIS0438,Female,18,43,1.3,49,38,42,3,No,At Risk
+HIS0439,Male,22,77,3.7,63,64,68,1,No,Average
+HIS0440,Male,18,89,5.6,75,73,71,1,No,Excellent
+HIS0441,Female,18,50,2.6,44,55,59,2,Yes,Poor
+HIS0442,Male,23,62,3.8,67,67,69,2,No,Average
+HIS0443,Male,21,90,4.9,76,86,74,0,Yes,Excellent
+HIS0444,Female,22,76,4.7,90,70,70,0,No,Excellent
+HIS0445,Female,19,62,2.2,56,40,42,1,No,Poor
+HIS0446,Male,20,67,3.8,61,69,62,2,Yes,Average
+HIS0447,Female,22,33,1.3,46,39,40,2,No,At Risk
+HIS0448,Male,20,62,2.1,47,50,54,3,No,Poor
+HIS0449,Male,22,93,5.2,92,92,90,0,No,Excellent
+HIS0450,Female,19,67,2.9,67,65,52,2,Yes,Average
+HIS0451,Female,18,83,4.4,76,85,88,0,Yes,Excellent
+HIS0452,Female,21,81,5.7,89,81,69,0,Yes,Excellent
+HIS0453,Female,20,86,7.5,96,95,95,0,No,Excellent
+HIS0454,Male,20,79,4.1,83,85,82,0,No,Excellent
+HIS0455,Female,21,99,5.9,85,85,86,0,Yes,Excellent
+HIS0456,Male,20,65,3.6,62,63,65,2,No,Average
+HIS0457,Male,21,56,1.8,51,51,52,2,No,At Risk
+HIS0458,Male,20,78,5.4,77,87,78,1,Yes,Good
+HIS0459,Male,20,90,6.3,89,95,95,0,No,Excellent
+HIS0460,Female,19,90,5.2,93,100,100,0,No,Excellent
+HIS0461,Male,21,77,3.7,63,66,50,1,Yes,Average
+HIS0462,Male,20,50,1.5,35,39,41,4,No,At Risk
+HIS0463,Female,23,39,1.2,34,35,50,4,No,At Risk
+HIS0464,Female,19,87,5.5,92,95,90,0,No,Excellent
+HIS0465,Male,22,61,2.5,56,54,53,1,Yes,Poor
+HIS0466,Male,20,83,5.9,72,76,70,1,Yes,Good
+HIS0467,Male,17,31,0.5,42,46,32,2,No,At Risk
+HIS0468,Male,17,59,1.5,49,54,60,1,Yes,Poor
+HIS0469,Male,21,96,7.6,95,100,94,0,No,Excellent
+HIS0470,Male,23,44,1.4,50,48,43,4,No,At Risk
+HIS0471,Male,19,99,5.9,98,93,84,0,Yes,Excellent
+HIS0472,Male,23,75,3.6,70,70,59,0,No,Good
+HIS0473,Male,19,96,5.6,98,97,87,0,No,Excellent
+HIS0474,Male,18,98,6.9,93,94,100,0,No,Excellent
+HIS0475,Female,17,84,4.2,84,89,79,1,No,Good
+HIS0476,Female,22,76,5.9,70,75,68,1,No,Good
+HIS0477,Female,19,92,5.3,85,100,86,0,No,Excellent
+HIS0478,Female,18,51,1.7,44,41,48,2,Yes,At Risk
+HIS0479,Male,22,83,5.6,70,73,89,0,No,Excellent
+HIS0480,Male,22,91,6.4,88,91,95,0,No,Excellent
+HIS0481,Male,22,88,5.8,94,91,91,0,Yes,Excellent
+HIS0482,Male,21,60,1.0,48,58,43,2,Yes,At Risk
+HIS0483,Female,23,54,1.7,42,47,45,2,Yes,Poor
+HIS0484,Female,23,86,6.1,89,88,84,0,Yes,Excellent
+HIS0485,Female,21,56,1.0,52,51,44,2,Yes,At Risk
+HIS0486,Female,19,77,4.1,61,73,55,2,No,Average
+HIS0487,Female,20,47,0.7,46,34,44,4,No,At Risk
+HIS0488,Female,18,97,7.2,85,96,99,0,No,Excellent
+HIS0489,Female,17,51,1.2,47,34,49,4,No,At Risk
+HIS0490,Male,17,87,5.1,89,90,81,0,Yes,Excellent
+HIS0491,Male,22,97,7.0,93,86,91,0,Yes,Excellent
+HIS0492,Male,23,52,1.9,60,41,51,3,No,At Risk
+HIS0493,Male,21,38,1.3,32,39,32,3,Yes,At Risk
+HIS0494,Female,22,56,1.4,47,58,60,1,No,Poor
+HIS0495,Male,21,63,2.8,45,45,57,2,No,Poor
+HIS0496,Female,23,44,1.9,40,47,40,4,No,At Risk
+HIS0497,Female,20,79,2.7,72,61,62,2,No,Average
+HIS0498,Male,19,50,2.5,49,59,40,3,Yes,At Risk
+HIS0499,Female,19,81,5.7,70,78,82,0,Yes,Excellent
+HIS0500,Female,21,79,4.5,88,77,72,1,No,Good
+HIS0501,Female,17,77,5.4,85,75,80,0,No,Excellent
+HIS0502,Female,17,95,6.0,98,98,83,0,Yes,Excellent
+HIS0503,Male,22,76,2.1,72,73,54,1,Yes,Average
+HIS0504,Female,18,64,2.5,58,56,42,1,No,Poor
+HIS0505,Female,21,85,4.2,88,71,82,1,No,Good
+HIS0506,Male,21,54,2.5,55,57,46,2,No,Poor
+HIS0507,Male,17,53,1.3,37,32,38,5,No,At Risk
+HIS0508,Male,19,63,1.7,46,50,51,3,Yes,At Risk
+HIS0509,Female,18,55,1.2,34,44,31,3,Yes,At Risk
+HIS0510,Female,20,88,7.2,92,89,89,0,No,Excellent
+HIS0511,Female,21,50,1.7,57,46,46,3,No,At Risk
+HIS0512,Male,23,75,4.8,86,71,73,0,Yes,Good
+HIS0513,Female,23,38,0.6,50,30,32,5,No,At Risk
+HIS0514,Male,18,85,5.9,97,92,92,0,No,Excellent
+HIS0515,Female,22,89,5.1,70,71,72,1,No,Good
+HIS0516,Female,23,75,4.7,81,81,85,1,Yes,Excellent
+HIS0517,Male,17,93,7.6,85,93,87,0,No,Excellent
+HIS0518,Male,18,57,1.8,58,44,53,2,No,Poor
+HIS0519,Male,19,81,5.7,79,86,69,1,Yes,Excellent
+HIS0520,Female,22,88,5.6,89,85,90,0,No,Excellent
+HIS0521,Male,21,64,4.3,58,59,55,0,No,Good
+HIS0522,Female,22,82,5.4,81,72,87,1,Yes,Excellent
+HIS0523,Male,20,65,4.6,70,70,54,0,Yes,Good
+HIS0524,Female,22,93,7.9,92,91,86,0,Yes,Excellent
+HIS0525,Female,21,74,4.7,68,67,74,0,No,Good
+HIS0526,Male,18,49,1.3,50,31,46,2,No,At Risk
+HIS0527,Female,20,47,1.1,31,47,42,2,Yes,At Risk
+HIS0528,Female,17,69,3.4,68,64,69,0,Yes,Good
+HIS0529,Female,17,33,0.8,48,47,34,5,No,At Risk
+HIS0530,Male,22,89,5.2,76,84,67,1,No,Excellent
+HIS0531,Female,17,87,5.3,99,96,82,0,Yes,Excellent
+HIS0532,Female,19,85,5.1,74,75,69,0,Yes,Excellent
+HIS0533,Female,20,59,2.3,43,44,46,1,No,Poor
+HIS0534,Female,20,50,2.2,55,47,46,3,No,At Risk
+HIS0535,Female,17,85,5.7,93,91,81,0,Yes,Excellent
+HIS0536,Female,18,76,5.3,89,79,75,0,Yes,Excellent
+HIS0537,Female,17,84,5.2,89,88,90,0,No,Excellent
+HIS0538,Male,17,94,6.0,97,87,93,0,No,Excellent
+HIS0539,Male,20,70,3.6,71,61,72,0,Yes,Average
+HIS0540,Female,18,55,2.0,39,43,49,4,No,At Risk
+HIS0541,Male,17,48,1.2,50,45,45,3,Yes,At Risk
+HIS0542,Female,19,85,6.4,88,91,99,0,No,Excellent
+HIS0543,Female,19,55,1.5,30,50,36,4,No,At Risk
+HIS0544,Male,23,47,1.0,30,33,40,4,No,At Risk
+HIS0545,Male,22,81,4.7,80,85,80,0,Yes,Excellent
+HIS0546,Male,18,60,1.9,53,41,56,2,No,Poor
+HIS0547,Female,22,51,1.0,41,32,34,4,Yes,At Risk
+HIS0548,Male,19,35,1.4,42,35,49,2,No,At Risk
+HIS0549,Female,18,52,2.0,47,51,54,2,Yes,Poor
+HIS0550,Male,18,96,7.4,91,87,94,0,No,Excellent
+HIS0551,Male,18,75,4.2,71,64,74,1,Yes,Average
+HIS0552,Female,17,99,6.2,88,85,89,0,Yes,Excellent
+HIS0553,Female,21,94,5.1,94,91,90,0,Yes,Excellent
+HIS0554,Male,18,74,4.0,63,59,55,1,Yes,Average
+HIS0555,Female,21,41,1.3,38,34,39,3,Yes,At Risk
+HIS0556,Female,17,77,3.3,59,55,65,2,Yes,Poor
+HIS0557,Male,23,98,6.2,99,96,89,0,Yes,Excellent
+HIS0558,Male,18,54,1.2,54,43,54,2,No,At Risk
+HIS0559,Female,17,83,5.8,82,75,87,1,No,Excellent
+HIS0560,Male,21,100,5.3,100,99,85,0,No,Excellent
+HIS0561,Female,20,97,7.5,88,95,97,0,No,Excellent
+HIS0562,Female,18,43,0.9,37,47,35,5,No,At Risk
+HIS0563,Male,22,43,1.7,43,48,40,3,Yes,At Risk
+HIS0564,Female,20,45,0.7,49,44,40,2,No,At Risk
+HIS0565,Male,21,88,7.1,97,95,95,0,Yes,Excellent
+HIS0566,Female,19,89,7.0,99,94,92,0,Yes,Excellent
+HIS0567,Female,23,55,1.9,39,43,41,2,Yes,At Risk
+HIS0568,Male,18,84,4.1,87,71,65,1,Yes,Good
+HIS0569,Male,20,62,2.3,52,52,52,2,Yes,Poor
+HIS0570,Male,17,81,5.1,81,83,69,1,Yes,Good
+HIS0571,Female,23,89,7.2,100,98,84,0,Yes,Excellent
+HIS0572,Female,18,63,2.2,54,56,53,3,No,Poor
+HIS0573,Female,17,88,5.2,88,85,88,0,No,Excellent
+HIS0574,Male,21,100,7.1,88,100,82,0,No,Excellent
+HIS0575,Male,20,32,0.9,50,32,50,4,Yes,At Risk
+HIS0576,Male,22,65,2.1,50,53,51,2,No,Poor
+HIS0577,Male,22,53,1.0,48,38,31,5,Yes,At Risk
+HIS0578,Female,18,79,2.1,70,57,54,2,Yes,Poor
+HIS0579,Female,19,38,0.9,38,30,33,3,Yes,At Risk
+HIS0580,Male,21,83,5.6,77,85,70,0,No,Excellent
+HIS0581,Female,17,90,5.5,83,82,72,1,Yes,Excellent
+HIS0582,Male,20,63,2.2,69,67,65,1,No,Average
+HIS0583,Female,21,65,1.5,56,53,40,2,No,Poor
+HIS0584,Female,23,88,7.8,96,98,99,0,No,Excellent
+HIS0585,Male,19,93,7.0,97,99,87,0,No,Excellent
+HIS0586,Female,19,30,1.5,32,30,43,2,Yes,At Risk
+HIS0587,Male,21,84,4.5,71,70,84,0,Yes,Excellent
+HIS0588,Female,19,88,5.3,89,97,100,0,Yes,Excellent
+HIS0589,Female,23,52,2.3,48,53,50,2,Yes,At Risk
+HIS0590,Female,18,97,6.2,86,93,88,0,No,Excellent
+HIS0591,Male,20,42,0.8,45,33,34,5,Yes,At Risk
+HIS0592,Female,18,63,2.1,57,73,73,1,No,Poor
+HIS0593,Female,20,86,7.0,93,89,90,0,Yes,Excellent
+HIS0594,Male,21,62,2.7,42,57,47,1,No,Poor
+HIS0595,Female,17,41,1.0,39,42,31,2,No,At Risk
+HIS0596,Female,17,59,2.3,45,57,41,2,Yes,Poor
+HIS0597,Male,17,75,2.3,75,69,73,0,Yes,Average
+HIS0598,Female,17,37,1.2,32,47,50,4,No,At Risk
+HIS0599,Male,22,95,5.2,86,97,83,0,No,Excellent
+HIS0600,Male,18,37,1.9,31,34,45,2,No,At Risk
+HIS0601,Male,23,75,4.3,71,79,90,0,No,Excellent
+HIS0602,Female,19,32,1.7,33,33,45,3,Yes,At Risk
+HIS0603,Male,19,60,1.2,58,57,44,2,Yes,At Risk
+HIS0604,Male,18,88,5.8,98,90,91,0,No,Excellent
+HIS0605,Male,22,97,7.3,85,100,82,0,Yes,Excellent
+HIS0606,Female,20,39,1.1,45,34,36,3,No,At Risk
+HIS0607,Female,19,80,5.2,71,89,70,1,Yes,Excellent
+HIS0608,Male,20,50,2.1,46,43,56,1,No,Poor
+HIS0609,Male,22,83,4.1,73,74,86,1,No,Good
+HIS0610,Female,17,86,6.9,94,91,93,0,No,Excellent
+HIS0611,Male,22,86,7.8,90,90,80,0,Yes,Excellent
+HIS0612,Male,22,60,1.8,50,47,43,2,Yes,At Risk
+HIS0613,Female,18,56,1.8,47,42,55,3,No,At Risk
+HIS0614,Male,19,89,4.4,81,74,79,0,No,Excellent
+HIS0615,Female,18,76,5.4,71,78,69,0,No,Excellent
+HIS0616,Male,17,67,4.7,74,60,75,2,Yes,Good
+HIS0617,Female,22,65,2.7,46,58,55,2,No,Poor
+HIS0618,Male,17,82,4.7,88,77,83,0,Yes,Excellent
+HIS0619,Male,21,51,1.9,52,55,43,2,No,At Risk
+HIS0620,Female,22,98,7.8,89,96,89,0,Yes,Excellent
+HIS0621,Female,18,65,4.1,73,73,50,1,No,Average
+HIS0622,Male,19,80,3.4,75,55,70,0,No,Good
+HIS0623,Female,22,58,2.4,59,57,58,1,Yes,Average
+HIS0624,Female,18,96,7.7,88,97,91,0,Yes,Excellent
+HIS0625,Female,22,52,0.6,36,34,40,3,Yes,At Risk
+HIS0626,Male,17,52,0.8,37,40,41,4,No,At Risk
+HIS0627,Female,23,71,3.4,71,71,53,1,No,Average
+HIS0628,Male,17,91,7.7,99,87,82,0,Yes,Excellent
+HIS0629,Female,22,83,4.2,74,85,69,0,Yes,Good
+HIS0630,Male,17,34,1.2,43,44,50,2,No,At Risk
+HIS0631,Female,20,85,4.8,80,90,85,1,No,Excellent
+HIS0632,Female,19,78,2.4,64,60,75,1,Yes,Average
+HIS0633,Male,23,89,6.1,99,90,99,0,No,Excellent
+HIS0634,Female,18,80,4.5,71,80,83,0,No,Good
+HIS0635,Female,17,76,5.3,81,74,76,1,Yes,Excellent
+HIS0636,Female,22,97,7.8,89,99,90,0,Yes,Excellent
+HIS0637,Male,22,75,4.7,73,59,75,2,No,Average
+HIS0638,Male,20,51,1.3,57,43,49,1,No,Poor
+HIS0639,Male,17,62,3.0,74,75,56,2,Yes,Average
+HIS0640,Male,22,99,7.0,87,97,86,0,No,Excellent
+HIS0641,Female,19,72,2.4,68,66,62,1,Yes,Average
+HIS0642,Female,18,74,4.6,57,61,73,1,No,Good
+HIS0643,Female,23,63,1.3,58,59,42,1,Yes,Poor
+HIS0644,Female,20,40,0.6,48,42,32,2,No,At Risk
+HIS0645,Female,17,89,5.4,74,76,70,1,No,Excellent
+HIS0646,Female,19,78,2.9,72,69,57,0,Yes,Average
+HIS0647,Male,23,53,2.3,49,53,45,2,Yes,At Risk
+HIS0648,Female,23,75,5.0,57,74,73,1,No,Good
+HIS0649,Male,21,80,4.1,58,66,66,2,Yes,Average
+HIS0650,Female,22,89,6.0,89,96,85,0,No,Excellent
+HIS0651,Male,23,61,2.9,71,75,52,2,Yes,Average
+HIS0652,Female,23,90,6.6,95,94,88,0,Yes,Excellent
+HIS0653,Male,17,75,4.3,79,81,89,1,No,Good
+HIS0654,Male,17,79,5.0,76,87,84,0,No,Excellent
+HIS0655,Female,17,75,5.0,79,81,69,1,No,Good
+HIS0656,Male,20,92,5.4,89,92,89,0,Yes,Excellent
+HIS0657,Male,20,87,5.1,100,98,81,0,Yes,Excellent
+HIS0658,Male,18,93,5.1,94,85,83,0,Yes,Excellent
+HIS0659,Male,21,60,2.3,63,73,61,1,Yes,Average
+HIS0660,Male,23,32,0.6,48,30,46,3,Yes,At Risk
+HIS0661,Male,20,30,2.0,33,36,46,5,No,At Risk
+HIS0662,Female,17,90,7.5,97,98,86,0,No,Excellent
+HIS0663,Female,20,53,2.0,55,51,49,3,Yes,At Risk
+HIS0664,Male,23,97,5.9,94,99,87,0,No,Excellent
+HIS0665,Female,21,100,7.8,96,90,80,0,Yes,Excellent
+HIS0666,Female,18,88,5.4,97,88,85,0,No,Excellent
+HIS0667,Female,22,42,0.7,43,45,38,4,No,At Risk
+HIS0668,Female,20,42,2.0,46,38,34,5,Yes,At Risk
+HIS0669,Female,22,57,2.3,44,40,43,3,Yes,At Risk
+HIS0670,Female,23,90,6.1,95,89,89,0,Yes,Excellent
+HIS0671,Male,23,56,1.6,55,55,56,2,No,Poor
+HIS0672,Female,17,98,7.6,88,97,94,0,No,Excellent
+HIS0673,Female,20,90,6.7,94,90,95,0,Yes,Excellent
+HIS0674,Female,20,100,7.0,100,100,97,0,Yes,Excellent
+HIS0675,Male,18,42,1.4,41,39,40,2,Yes,At Risk
+HIS0676,Male,20,71,4.4,73,55,74,2,No,Average
+HIS0677,Male,22,71,3.2,56,62,57,0,No,Average
+HIS0678,Female,21,94,5.3,90,85,97,0,Yes,Excellent
+HIS0679,Female,19,43,0.9,45,48,30,4,No,At Risk
+HIS0680,Female,19,33,1.7,33,36,40,5,No,At Risk
+HIS0681,Female,21,56,2.0,42,57,46,2,No,At Risk
+HIS0682,Male,21,57,2.2,42,58,43,3,No,At Risk
+HIS0683,Female,18,45,1.1,41,32,50,4,No,At Risk
+HIS0684,Male,21,62,1.5,56,54,57,1,Yes,Poor
+HIS0685,Male,21,56,2.3,54,48,60,3,No,Poor
+HIS0686,Female,23,86,4.9,77,74,88,1,No,Excellent
+HIS0687,Male,20,91,7.5,93,94,100,0,No,Excellent
+HIS0688,Female,20,78,4.3,70,77,90,1,No,Good
+HIS0689,Male,22,91,5.5,89,85,88,0,Yes,Excellent
+HIS0690,Female,22,50,1.1,42,50,59,2,Yes,At Risk
+HIS0691,Male,18,97,7.8,89,92,83,0,No,Excellent
+HIS0692,Male,18,33,1.7,40,40,48,5,Yes,At Risk
+HIS0693,Female,22,90,5.6,93,99,93,0,Yes,Excellent
+HIS0694,Female,23,95,6.6,100,92,88,0,No,Excellent
+HIS0695,Male,19,60,3.9,74,56,73,2,Yes,Average
+HIS0696,Male,20,42,1.0,41,33,47,3,No,At Risk
+HIS0697,Female,23,69,2.3,62,64,56,0,No,Average
+HIS0698,Female,23,51,1.5,42,55,55,3,No,At Risk
+HIS0699,Male,22,90,7.1,87,96,93,0,No,Excellent
+HIS0700,Male,17,89,5.6,74,70,77,0,No,Excellent
+HIS0701,Female,23,82,5.0,90,74,84,1,No,Excellent
+HIS0702,Female,19,83,4.3,88,80,90,1,Yes,Good
+HIS0703,Female,18,87,5.8,88,77,65,0,Yes,Excellent
+HIS0704,Female,18,65,2.1,74,68,69,1,Yes,Average
+HIS0705,Male,18,33,0.5,46,43,44,5,Yes,At Risk
+HIS0706,Male,20,69,4.2,67,59,63,0,Yes,Good
+HIS0707,Female,21,88,5.6,70,79,73,0,No,Excellent
+HIS0708,Female,22,52,1.0,44,50,52,3,Yes,At Risk
+HIS0709,Female,21,38,0.6,47,31,31,4,Yes,At Risk
+HIS0710,Female,18,52,1.6,31,30,38,5,No,At Risk
+HIS0711,Male,17,31,1.4,38,35,46,5,No,At Risk
+HIS0712,Female,22,76,3.3,63,58,60,0,Yes,Good
+HIS0713,Male,19,73,2.8,63,74,74,1,No,Average
+HIS0714,Male,18,54,2.1,60,54,41,1,Yes,Poor
+HIS0715,Female,22,100,5.8,99,98,83,0,Yes,Excellent
+HIS0716,Female,18,45,1.2,33,34,33,4,Yes,At Risk
+HIS0717,Male,18,83,5.1,88,76,83,0,Yes,Excellent
+HIS0718,Male,23,53,2.8,40,49,43,2,No,Poor
+HIS0719,Male,19,64,2.1,69,70,64,2,No,Average
+HIS0720,Male,21,99,6.0,89,91,81,0,No,Excellent
+HIS0721,Male,18,42,0.6,38,35,37,5,Yes,At Risk
+HIS0722,Female,22,62,1.6,60,44,43,2,No,Poor
+HIS0723,Female,20,34,1.0,33,41,46,3,No,At Risk
+HIS0724,Female,17,78,3.8,57,68,75,1,Yes,Good
+HIS0725,Female,17,95,7.9,92,89,95,0,No,Excellent
+HIS0726,Male,21,59,1.3,44,49,47,3,No,At Risk
+HIS0727,Female,21,86,6.5,98,98,83,0,No,Excellent
+HIS0728,Female,22,85,5.3,99,90,85,0,Yes,Excellent
+HIS0729,Male,18,70,3.8,69,69,69,1,No,Average
+HIS0730,Male,17,93,7.6,88,98,97,0,Yes,Excellent
+HIS0731,Female,22,90,4.9,82,89,88,1,No,Excellent
+HIS0732,Male,18,59,1.2,44,40,46,1,Yes,At Risk
+HIS0733,Female,18,54,2.3,53,60,57,1,Yes,Poor
+HIS0734,Female,21,63,1.0,45,44,54,2,No,At Risk
+HIS0735,Female,20,81,4.6,82,71,75,0,Yes,Excellent
+HIS0736,Male,21,59,1.1,52,55,56,3,No,At Risk
+HIS0737,Female,21,98,6.7,87,93,100,0,No,Excellent
+HIS0738,Female,20,74,4.1,55,60,59,2,Yes,Average
+HIS0739,Female,20,82,5.2,80,89,87,1,Yes,Excellent
+HIS0740,Female,18,75,4.4,60,74,56,1,Yes,Good
+HIS0741,Male,18,81,4.3,85,73,90,1,No,Good
+HIS0742,Male,23,31,2.0,41,38,41,3,Yes,At Risk
+HIS0743,Female,23,95,6.3,92,88,97,0,No,Excellent
+HIS0744,Female,23,61,4.3,72,63,54,2,Yes,Average
+HIS0745,Male,18,53,2.9,59,59,43,3,Yes,Poor
+HIS0746,Female,19,91,7.7,90,94,94,0,Yes,Excellent
+HIS0747,Female,19,78,5.7,84,83,89,0,Yes,Excellent
+HIS0748,Female,23,35,0.6,41,43,41,3,Yes,At Risk
+HIS0749,Male,23,79,5.6,83,83,79,1,Yes,Excellent
+HIS0750,Male,22,87,5.3,95,97,85,0,Yes,Excellent
+HIS0751,Female,17,76,6.0,86,79,78,1,No,Excellent
+HIS0752,Female,22,76,3.8,59,67,64,2,Yes,Average
+HIS0753,Male,21,80,3.2,61,64,52,0,No,Average
+HIS0754,Male,23,39,0.8,46,47,39,4,Yes,At Risk
+HIS0755,Female,22,48,0.9,39,43,46,2,Yes,At Risk
+HIS0756,Female,18,41,0.7,50,33,44,4,Yes,At Risk
+HIS0757,Female,22,48,1.6,50,47,49,3,No,At Risk
+HIS0758,Male,23,51,0.7,42,46,37,2,No,At Risk
+HIS0759,Male,20,74,2.3,68,68,52,0,Yes,Average
+HIS0760,Female,22,89,4.2,86,82,83,1,No,Excellent
+HIS0761,Female,18,64,2.4,55,53,45,1,Yes,Poor
+HIS0762,Female,17,46,0.7,36,44,45,2,Yes,At Risk
+HIS0763,Female,19,43,0.7,41,48,39,2,Yes,At Risk
+HIS0764,Female,19,69,2.9,55,59,54,2,No,Poor
+HIS0765,Female,20,80,5.6,85,70,68,1,Yes,Good
+HIS0766,Female,23,39,1.3,40,42,45,3,Yes,At Risk
+HIS0767,Male,20,64,1.3,50,42,59,3,No,At Risk
+HIS0768,Female,21,77,2.1,69,63,70,0,Yes,Average
+HIS0769,Male,17,87,5.6,86,91,95,0,Yes,Excellent
+HIS0770,Male,20,66,2.7,73,69,52,2,No,Average
+HIS0771,Male,17,95,6.3,98,85,96,0,No,Excellent
+HIS0772,Male,17,90,5.9,90,93,82,0,No,Excellent
+HIS0773,Female,19,40,0.8,31,39,42,2,No,At Risk
+HIS0774,Female,17,72,4.8,58,56,56,0,Yes,Good
+HIS0775,Male,17,61,3.0,72,68,52,1,Yes,Average
+HIS0776,Female,20,77,4.9,58,62,74,2,Yes,Average
+HIS0777,Female,21,91,7.3,89,96,97,0,Yes,Excellent
+HIS0778,Male,20,51,1.0,54,59,49,3,Yes,At Risk
+HIS0779,Male,22,79,2.8,67,66,70,0,No,Average
+HIS0780,Male,21,48,0.6,32,42,33,3,No,At Risk
+HIS0781,Female,19,55,1.0,40,50,38,5,No,At Risk
+HIS0782,Female,17,89,5.9,80,70,87,0,Yes,Excellent
+HIS0783,Male,23,90,6.2,100,97,97,0,Yes,Excellent
+HIS0784,Male,20,53,1.7,52,59,51,2,Yes,At Risk
+HIS0785,Male,23,66,3.3,62,55,74,1,No,Average
+HIS0786,Female,22,50,1.0,37,37,45,4,Yes,At Risk
+HIS0787,Male,22,36,0.5,50,42,33,4,No,At Risk
+HIS0788,Female,21,51,1.5,48,35,32,3,Yes,At Risk
+HIS0789,Female,22,83,4.4,70,87,84,1,No,Good
+HIS0790,Male,22,95,6.3,98,93,83,0,No,Excellent
+HIS0791,Male,19,76,4.6,83,87,79,1,Yes,Good
+HIS0792,Female,19,85,8.0,92,98,82,0,Yes,Excellent
+HIS0793,Male,20,88,5.1,98,85,98,0,No,Excellent
+HIS0794,Female,23,85,5.7,80,86,90,0,Yes,Excellent
+HIS0795,Male,17,99,6.7,87,86,81,0,No,Excellent
+HIS0796,Male,19,51,1.6,60,53,42,1,Yes,Poor
+HIS0797,Female,20,62,1.2,53,47,59,3,Yes,At Risk
+HIS0798,Male,17,53,1.7,40,54,56,2,Yes,At Risk
+HIS0799,Female,22,52,0.6,36,48,34,4,No,At Risk
+HIS0800,Female,21,44,0.8,34,31,31,3,No,At Risk
+HIS0801,Female,19,69,3.8,72,59,54,1,No,Average
+HIS0802,Female,18,60,3.6,59,56,57,2,Yes,Average
+HIS0803,Female,23,81,5.6,80,76,86,1,No,Excellent
+HIS0804,Female,23,48,1.9,49,39,43,4,Yes,At Risk
+HIS0805,Female,22,100,5.7,85,92,87,0,Yes,Excellent
+HIS0806,Male,21,72,2.6,60,55,61,0,Yes,Average
+HIS0807,Female,18,89,5.9,91,96,81,0,Yes,Excellent
+HIS0808,Male,23,83,5.4,80,87,72,0,Yes,Excellent
+HIS0809,Female,20,63,2.1,59,67,70,0,No,Average
+HIS0810,Male,18,86,5.6,75,86,90,1,Yes,Excellent
+HIS0811,Male,23,81,5.1,81,80,84,1,Yes,Good
+HIS0812,Female,18,39,1.7,40,37,31,4,Yes,At Risk
+HIS0813,Female,18,100,7.4,87,90,96,0,No,Excellent
+HIS0814,Male,18,71,3.6,70,70,65,1,No,Good
+HIS0815,Male,23,81,4.9,77,82,71,1,No,Good
+HIS0816,Male,20,68,3.7,59,57,59,1,No,Average
+HIS0817,Female,19,49,1.0,44,44,43,5,No,At Risk
+HIS0818,Female,23,50,1.4,47,48,60,1,No,At Risk
+HIS0819,Female,17,46,1.3,32,38,37,2,Yes,At Risk
+HIS0820,Male,23,36,1.0,40,38,39,4,Yes,At Risk
+HIS0821,Male,20,38,0.5,39,39,41,5,No,At Risk
+HIS0822,Female,22,54,1.9,42,37,37,3,No,At Risk
+HIS0823,Female,20,60,2.6,50,46,53,3,No,At Risk
+HIS0824,Female,19,30,1.1,48,34,39,2,No,At Risk
+HIS0825,Male,18,88,4.9,82,87,74,1,Yes,Excellent
+HIS0826,Female,17,85,5.1,89,89,83,1,No,Excellent
+HIS0827,Male,17,42,0.8,33,40,48,5,No,At Risk
+HIS0828,Female,19,35,0.5,49,45,30,3,Yes,At Risk
+HIS0829,Male,18,82,4.6,86,72,79,0,No,Excellent
+HIS0830,Female,23,73,3.2,58,59,67,1,No,Average
+HIS0831,Female,21,79,5.7,79,83,87,1,Yes,Excellent
+HIS0832,Male,21,89,4.6,70,74,79,0,No,Excellent
+HIS0833,Female,19,78,4.6,69,69,68,0,Yes,Good
+HIS0834,Female,22,72,3.8,60,68,57,0,No,Good
+HIS0835,Male,22,78,4.8,71,77,70,1,No,Good
+HIS0836,Female,20,90,4.8,87,73,76,0,Yes,Excellent
+HIS0837,Female,20,55,1.5,56,41,54,1,Yes,Poor
+HIS0838,Female,22,72,4.6,67,56,50,1,Yes,Average
+HIS0839,Female,23,65,1.9,42,57,47,3,No,At Risk
+HIS0840,Female,18,65,2.5,55,74,53,0,No,Average
+HIS0841,Male,20,85,7.0,89,99,91,0,Yes,Excellent
+HIS0842,Male,18,88,6.2,94,99,81,0,Yes,Excellent
+HIS0843,Male,18,67,2.6,55,68,50,0,No,Average
+HIS0844,Male,21,90,7.2,86,98,96,0,No,Excellent
+HIS0845,Male,17,87,5.9,73,77,71,0,No,Excellent
+HIS0846,Female,17,60,1.0,46,54,47,1,No,Poor
+HIS0847,Female,22,91,6.2,100,88,97,0,No,Excellent
+HIS0848,Female,20,54,1.7,60,50,55,1,No,Poor
+HIS0849,Male,19,50,1.6,46,48,30,3,Yes,At Risk
+HIS0850,Female,18,88,5.5,89,72,66,0,No,Excellent
+HIS0851,Female,19,87,4.4,71,77,88,1,No,Good
+HIS0852,Male,21,98,6.9,94,85,87,0,No,Excellent
+HIS0853,Male,17,92,7.4,92,97,96,0,Yes,Excellent
+HIS0854,Male,21,52,2.9,41,60,44,1,Yes,Poor
+HIS0855,Male,22,55,1.9,37,46,32,5,No,At Risk
+HIS0856,Male,19,82,4.8,89,77,74,1,No,Excellent
+HIS0857,Female,21,52,2.9,51,52,52,1,No,Poor
+HIS0858,Female,21,53,1.2,34,45,30,5,No,At Risk
+HIS0859,Female,20,34,1.3,35,38,42,5,No,At Risk
+HIS0860,Male,17,49,1.2,40,34,45,3,Yes,At Risk
+HIS0861,Female,19,53,1.6,45,42,43,5,No,At Risk
+HIS0862,Female,23,32,1.1,31,33,42,3,Yes,At Risk
+HIS0863,Male,18,76,4.1,75,66,72,0,No,Good
+HIS0864,Female,22,51,2.8,51,60,40,3,Yes,At Risk
+HIS0865,Female,20,83,4.5,88,75,65,0,Yes,Excellent
+HIS0866,Female,21,32,1.3,36,43,35,5,No,At Risk
+HIS0867,Female,22,73,4.3,57,58,70,2,No,Average
+HIS0868,Female,21,87,5.4,70,75,80,0,Yes,Excellent
+HIS0869,Female,18,59,2.5,45,45,51,1,Yes,Poor
+HIS0870,Female,23,33,1.2,36,35,36,2,Yes,At Risk
+HIS0871,Male,20,64,2.3,59,43,60,1,Yes,Poor
+HIS0872,Male,19,93,5.2,85,92,95,0,Yes,Excellent
+HIS0873,Female,21,86,5.3,85,97,99,0,No,Excellent
+HIS0874,Male,19,60,1.7,50,50,47,2,No,Poor
+HIS0875,Female,22,63,2.0,67,59,50,2,Yes,Poor
+HIS0876,Female,17,86,4.9,85,86,78,0,Yes,Excellent
+HIS0877,Male,19,61,4.9,65,69,57,2,No,Average
+HIS0878,Male,18,65,3.0,43,52,49,3,Yes,At Risk
+HIS0879,Male,18,52,1.6,57,54,45,2,Yes,Poor
+HIS0880,Female,23,80,5.5,72,73,78,0,Yes,Excellent
+HIS0881,Female,23,67,4.2,70,58,71,0,No,Good
+HIS0882,Female,17,77,5.3,82,82,85,1,Yes,Good
+HIS0883,Female,18,62,2.3,65,73,56,2,Yes,Average
+HIS0884,Female,19,72,3.7,55,64,51,2,Yes,Average
+HIS0885,Female,19,64,3.6,74,73,57,0,No,Average
+HIS0886,Male,21,84,5.7,85,84,69,1,Yes,Excellent
+HIS0887,Male,20,69,3.5,58,63,72,2,No,Average
+HIS0888,Male,23,72,2.2,65,59,72,0,Yes,Average
+HIS0889,Female,19,62,1.6,45,40,57,2,No,Poor
+HIS0890,Male,19,62,1.1,49,49,46,3,No,At Risk
+HIS0891,Female,19,55,0.6,39,44,50,3,Yes,At Risk
+HIS0892,Male,20,81,4.4,76,90,65,1,Yes,Excellent
+HIS0893,Female,21,55,2.9,43,51,55,1,Yes,Poor
+HIS0894,Female,19,54,2.3,52,47,41,1,Yes,Poor
+HIS0895,Female,19,35,1.5,42,32,44,5,No,At Risk
+HIS0896,Female,19,88,5.3,88,100,100,0,Yes,Excellent
+HIS0897,Male,22,90,6.2,98,94,98,0,Yes,Excellent
+HIS0898,Male,23,35,1.1,30,42,47,5,Yes,At Risk
+HIS0899,Male,18,78,4.4,89,75,65,1,No,Good
+HIS0900,Female,19,36,1.5,32,47,38,2,Yes,At Risk
+HIS0901,Female,18,35,1.1,30,37,39,2,No,At Risk
+HIS0902,Male,18,45,1.5,46,41,49,3,Yes,At Risk
+HIS0903,Male,22,91,5.4,91,89,99,0,No,Excellent
+HIS0904,Male,19,43,0.6,38,38,42,3,No,At Risk
+HIS0905,Male,20,54,2.1,42,60,48,3,Yes,At Risk
+HIS0906,Male,21,85,6.0,83,82,65,0,Yes,Excellent
+HIS0907,Female,17,98,5.2,87,96,90,0,Yes,Excellent
+HIS0908,Female,21,97,7.9,92,97,83,0,Yes,Excellent
+HIS0909,Male,19,53,2.1,58,49,57,2,Yes,At Risk
+HIS0910,Male,19,55,1.7,57,57,59,2,No,Poor
+HIS0911,Female,22,89,7.0,89,97,98,0,Yes,Excellent
+HIS0912,Female,21,88,5.4,75,84,76,1,No,Excellent
+HIS0913,Male,17,84,5.3,72,79,78,1,Yes,Excellent
+HIS0914,Female,22,77,4.3,71,72,88,1,No,Good
+HIS0915,Male,23,53,0.7,45,46,47,2,No,At Risk
+HIS0916,Male,18,98,7.1,96,92,96,0,No,Excellent
+HIS0917,Female,17,96,7.5,96,86,93,0,No,Excellent
+HIS0918,Male,17,67,4.5,58,64,59,1,No,Average
+HIS0919,Female,17,42,0.8,39,50,46,2,No,At Risk
+HIS0920,Male,20,60,3.8,65,64,61,0,Yes,Average
+HIS0921,Male,20,60,2.3,70,61,52,2,Yes,Poor
+HIS0922,Female,20,89,7.3,93,92,95,0,No,Excellent
+HIS0923,Male,19,83,4.2,84,84,70,0,No,Excellent
+HIS0924,Male,22,78,4.4,71,74,77,1,No,Good
+HIS0925,Male,19,90,5.9,78,73,78,1,No,Excellent
+HIS0926,Male,23,62,1.3,43,40,44,1,No,Poor
+HIS0927,Female,19,76,5.4,80,83,84,0,No,Excellent
+HIS0928,Female,23,52,2.5,47,59,44,3,Yes,At Risk
+HIS0929,Male,18,93,8.0,92,98,86,0,Yes,Excellent
+HIS0930,Male,18,50,1.5,37,33,34,5,Yes,At Risk
+HIS0931,Male,18,50,2.2,42,41,52,2,No,Poor
+HIS0932,Female,19,73,3.4,71,68,70,0,No,Average
+HIS0933,Male,22,71,4.1,62,65,51,0,Yes,Average
+HIS0934,Female,19,66,2.9,63,74,53,1,Yes,Average
+HIS0935,Female,22,69,2.3,55,72,74,0,No,Average
+HIS0936,Male,18,46,1.4,37,50,38,3,No,At Risk
+HIS0937,Female,19,33,0.6,50,36,36,5,Yes,At Risk
+HIS0938,Female,23,56,2.1,44,41,44,1,No,Poor
+HIS0939,Female,21,41,1.8,44,50,33,5,Yes,At Risk
+HIS0940,Male,23,55,0.5,49,38,34,4,Yes,At Risk
+HIS0941,Female,21,87,5.0,87,86,67,0,No,Excellent
+HIS0942,Male,23,62,2.2,46,45,40,1,Yes,Poor
+HIS0943,Male,18,44,1.3,46,38,39,3,No,At Risk
+HIS0944,Female,23,76,5.1,79,71,85,0,No,Good
+HIS0945,Male,22,92,8.0,91,88,80,0,No,Excellent
+HIS0946,Male,23,38,1.6,43,49,39,4,Yes,At Risk
+HIS0947,Female,23,67,4.2,63,60,58,0,Yes,Good
+HIS0948,Female,18,47,0.8,44,37,40,4,Yes,At Risk
+HIS0949,Male,20,57,2.5,53,51,44,2,Yes,Poor
+HIS0950,Male,18,80,4.4,85,75,85,1,Yes,Good
+HIS0951,Male,22,56,1.1,42,53,47,2,No,At Risk
+HIS0952,Male,19,88,6.1,85,88,80,0,Yes,Excellent
+HIS0953,Male,20,75,5.6,70,73,82,1,Yes,Good
+HIS0954,Female,22,44,1.7,39,40,45,3,Yes,At Risk
+HIS0955,Female,18,33,0.5,31,33,47,4,Yes,At Risk
+HIS0956,Female,22,92,5.1,98,97,84,0,No,Excellent
+HIS0957,Female,17,100,5.5,88,92,83,0,No,Excellent
+HIS0958,Male,22,62,4.7,74,59,55,1,No,Good
+HIS0959,Female,22,54,2.8,49,59,49,2,Yes,Poor
+HIS0960,Male,20,68,4.4,57,55,54,2,Yes,Average
+HIS0961,Male,19,65,2.6,43,58,53,3,No,At Risk
+HIS0962,Female,18,80,5.5,81,80,80,1,No,Excellent
+HIS0963,Male,21,87,4.8,85,87,82,1,Yes,Excellent
+HIS0964,Female,18,57,2.4,47,51,40,1,Yes,Poor
+HIS0965,Female,18,86,7.7,96,89,89,0,Yes,Excellent
+HIS0966,Female,19,82,4.1,74,73,87,0,No,Good
+HIS0967,Female,18,88,7.0,87,100,99,0,Yes,Excellent
+HIS0968,Female,20,92,5.2,98,89,85,0,Yes,Excellent
+HIS0969,Male,21,60,1.9,60,40,49,1,Yes,Poor
+HIS0970,Female,18,80,4.0,83,84,82,1,No,Good
+HIS0971,Female,18,62,3.6,59,61,62,2,Yes,Poor
+HIS0972,Male,23,49,1.8,44,45,40,5,No,At Risk
+HIS0973,Female,17,80,3.3,63,58,53,0,No,Good
+HIS0974,Male,22,84,4.3,73,72,71,0,No,Good
+HIS0975,Female,17,92,5.8,86,100,81,0,No,Excellent
+HIS0976,Male,19,69,4.9,71,61,60,1,No,Average
+HIS0977,Male,19,53,2.0,44,40,58,2,No,Poor
+HIS0978,Male,23,79,5.4,72,90,67,0,Yes,Excellent
+HIS0979,Female,18,85,4.9,74,80,74,1,No,Good
+HIS0980,Female,21,77,5.9,88,90,80,0,Yes,Excellent
+HIS0981,Female,19,100,5.3,95,90,89,0,Yes,Excellent
+HIS0982,Male,17,87,5.5,99,93,95,0,No,Excellent
+HIS0983,Female,19,45,0.6,39,42,43,3,No,At Risk
+HIS0984,Male,18,98,6.5,93,86,99,0,Yes,Excellent
+HIS0985,Male,19,94,6.1,97,87,87,0,No,Excellent
+HIS0986,Female,18,64,2.3,54,43,42,1,Yes,Poor
+HIS0987,Female,20,60,1.1,50,59,55,1,No,Poor
+HIS0988,Female,23,89,7.8,89,91,90,0,No,Excellent
+HIS0989,Male,17,65,1.4,46,40,53,2,No,Poor
+HIS0990,Male,22,77,4.5,72,79,87,1,No,Good
+HIS0991,Female,20,65,4.5,57,68,60,1,Yes,Average
+HIS0992,Male,17,65,2.1,45,53,51,3,No,At Risk
+HIS0993,Female,17,49,0.7,40,30,34,5,Yes,At Risk
+HIS0994,Male,17,58,2.0,40,54,44,3,No,At Risk
+HIS0995,Male,18,81,4.8,87,75,84,1,Yes,Good
+HIS0996,Female,20,30,1.1,41,30,39,4,Yes,At Risk
+HIS0997,Female,20,61,1.7,57,53,56,2,Yes,Poor
+HIS0998,Female,22,65,3.7,60,72,63,1,No,Good
+HIS0999,Male,21,79,4.8,58,57,75,0,Yes,Good
+HIS1000,Male,22,53,2.0,59,57,43,3,No,Poor
+HIS1001,Male,19,73,2.6,69,72,62,0,Yes,Good
+HIS1002,Female,19,63,2.8,60,52,40,2,Yes,Poor
+HIS1003,Male,18,69,4.5,68,62,50,1,Yes,Average
+HIS1004,Female,18,76,4.5,74,65,60,0,No,Good
+HIS1005,Female,19,50,1.1,31,48,43,3,No,At Risk
+HIS1006,Female,23,35,1.2,33,34,46,2,No,At Risk
+HIS1007,Male,17,35,1.9,36,32,32,2,No,At Risk
+HIS1008,Female,18,52,1.3,32,48,42,2,Yes,At Risk
+HIS1009,Male,19,82,4.6,87,77,88,1,No,Excellent
+HIS1010,Female,19,89,6.9,88,88,94,0,Yes,Excellent
+HIS1011,Female,17,77,4.2,81,76,77,0,No,Good
+HIS1012,Male,19,52,1.4,53,52,50,3,No,At Risk
+HIS1013,Male,18,90,7.0,86,88,90,0,No,Excellent
+HIS1014,Male,18,53,0.9,33,36,49,2,Yes,At Risk
+HIS1015,Female,19,63,4.7,55,65,54,0,Yes,Average
+HIS1016,Female,21,56,2.9,51,57,60,2,No,Poor
+HIS1017,Male,22,56,1.5,46,48,52,1,No,Poor
+HIS1018,Female,20,63,2.8,53,59,48,2,Yes,Poor
+HIS1019,Female,21,86,4.7,90,72,79,0,Yes,Excellent
+HIS1020,Male,23,59,2.2,60,56,51,2,Yes,Poor
+HIS1021,Male,23,73,4.4,66,62,52,0,No,Good
+HIS1022,Male,20,63,2.0,55,65,56,1,No,Poor
+HIS1023,Female,22,79,2.6,61,58,67,1,Yes,Average
+HIS1024,Female,20,60,2.6,46,46,41,2,No,At Risk
+HIS1025,Male,20,88,6.4,95,97,87,0,No,Excellent
+HIS1026,Male,17,64,4.5,67,56,67,2,Yes,Average
+HIS1027,Male,21,53,2.7,53,49,48,2,No,Poor
+HIS1028,Male,23,75,3.8,67,64,72,1,No,Good
+HIS1029,Female,18,79,2.3,62,56,50,0,Yes,Average
+HIS1030,Male,17,77,4.4,81,87,65,0,No,Good
+HIS1031,Female,17,62,2.8,74,67,58,2,Yes,Poor
+HIS1032,Male,21,85,5.7,88,83,85,1,Yes,Excellent
+HIS1033,Male,19,65,3.0,50,55,47,1,No,Poor
+HIS1034,Male,22,37,1.5,36,32,32,5,Yes,At Risk
+HIS1035,Female,23,89,5.6,76,85,68,1,Yes,Excellent
+HIS1036,Female,23,74,4.0,71,58,54,0,No,Good
+HIS1037,Female,23,46,0.8,42,36,32,4,No,At Risk
+HIS1038,Male,19,50,0.7,44,33,33,3,Yes,At Risk
+HIS1039,Female,18,100,7.0,99,96,88,0,Yes,Excellent
+HIS1040,Male,17,87,5.0,86,80,66,1,No,Good
+HIS1041,Female,21,63,1.4,46,52,45,3,No,At Risk
+HIS1042,Male,21,53,2.4,60,47,43,1,Yes,Poor
+HIS1043,Female,17,67,2.2,58,63,57,2,No,Poor
+HIS1044,Male,18,83,5.0,75,76,76,1,No,Good
+HIS1045,Male,19,52,1.4,39,37,35,4,Yes,At Risk
+HIS1046,Male,18,54,2.9,55,53,50,1,Yes,Poor
+HIS1047,Male,21,96,7.9,85,100,87,0,Yes,Excellent
+HIS1048,Female,20,67,3.6,60,59,74,0,Yes,Average
+HIS1049,Female,19,61,3.0,48,55,48,2,No,Poor
+HIS1050,Female,23,76,4.3,74,70,53,1,Yes,Average
+HIS1051,Male,18,79,4.7,70,77,83,1,No,Good
+HIS1052,Female,19,53,2.9,60,57,54,3,Yes,Poor
+HIS1053,Male,20,63,2.9,48,49,46,1,No,Average
+HIS1054,Female,21,61,1.6,40,55,44,2,Yes,Poor
+HIS1055,Male,18,51,0.7,45,39,32,4,Yes,At Risk
+HIS1056,Male,17,78,2.4,70,64,50,1,No,Average
+HIS1057,Female,18,64,3.1,64,71,71,2,Yes,Average
+HIS1058,Male,23,88,5.2,72,79,72,0,No,Excellent
+HIS1059,Female,22,63,1.8,43,48,49,3,No,At Risk
+HIS1060,Female,17,78,2.4,61,63,54,1,Yes,Average
+HIS1061,Male,21,78,4.8,69,72,55,1,No,Good
+HIS1062,Female,20,60,2.0,51,54,51,2,No,Poor
+HIS1063,Female,18,85,7.9,98,87,84,0,Yes,Excellent
+HIS1064,Male,20,47,1.8,39,31,42,3,No,At Risk
+HIS1065,Male,23,44,1.8,32,31,38,2,No,At Risk
+HIS1066,Male,21,78,3.4,65,56,53,2,Yes,Average
+HIS1067,Female,21,54,1.4,60,44,49,3,No,At Risk
+HIS1068,Male,20,78,4.1,74,89,68,0,Yes,Good
+HIS1069,Female,23,99,6.2,88,94,92,0,Yes,Excellent
+HIS1070,Male,23,51,1.2,49,33,43,3,Yes,At Risk
+HIS1071,Male,21,80,5.0,87,76,80,1,No,Good
+HIS1072,Male,17,61,2.3,52,52,43,2,No,Poor
+HIS1073,Female,17,74,2.4,67,55,68,1,Yes,Average
+HIS1074,Male,19,64,3.4,69,63,50,0,No,Average
+HIS1075,Male,19,42,1.3,35,50,34,4,No,At Risk
+HIS1076,Female,18,72,2.2,75,70,62,1,Yes,Average
+HIS1077,Male,23,78,4.9,66,73,69,1,Yes,Good
+HIS1078,Male,17,82,4.2,73,85,86,1,No,Good
+HIS1079,Male,20,87,5.5,83,72,66,1,Yes,Good
+HIS1080,Male,22,79,3.9,55,60,60,0,No,Good
+HIS1081,Male,20,47,0.8,38,45,44,4,Yes,At Risk
+HIS1082,Male,17,55,1.7,32,48,30,2,Yes,At Risk
+HIS1083,Male,21,73,3.7,57,65,55,2,No,Average
+HIS1084,Female,23,61,1.7,57,44,42,2,No,Poor
+HIS1085,Female,17,87,5.4,94,88,83,0,Yes,Excellent
+HIS1086,Female,17,84,5.8,78,82,87,1,Yes,Excellent
+HIS1087,Male,21,48,0.9,46,49,46,4,No,At Risk
+HIS1088,Male,19,100,7.8,93,85,81,0,No,Excellent
+HIS1089,Male,19,89,5.6,95,86,87,0,Yes,Excellent
+HIS1090,Male,20,98,6.8,87,100,84,0,Yes,Excellent
+HIS1091,Male,23,37,1.5,43,45,39,3,Yes,At Risk
+HIS1092,Male,20,87,5.4,70,87,80,0,No,Excellent
+HIS1093,Female,17,54,1.2,43,59,51,2,Yes,At Risk
+HIS1094,Male,17,82,4.2,70,77,78,0,Yes,Good
+HIS1095,Male,21,89,6.3,94,86,90,0,Yes,Excellent
+HIS1096,Female,23,65,2.3,42,42,48,3,Yes,At Risk
+HIS1097,Male,17,89,5.4,81,87,74,0,No,Excellent
+HIS1098,Male,19,73,4.1,74,70,58,0,Yes,Good
+HIS1099,Male,20,36,0.7,34,31,37,5,No,At Risk
+HIS1100,Female,20,93,5.8,97,94,82,0,No,Excellent
+HIS1101,Female,21,97,6.2,86,92,86,0,Yes,Excellent
+HIS1102,Male,23,94,5.1,96,85,99,0,No,Excellent
+HIS1103,Female,23,95,7.2,98,98,81,0,No,Excellent
+HIS1104,Male,18,44,1.1,48,46,38,3,No,At Risk
+HIS1105,Female,17,93,7.4,93,87,87,0,No,Excellent
+HIS1106,Female,23,38,1.0,38,50,49,2,Yes,At Risk
+HIS1107,Female,22,65,3.3,55,69,50,1,Yes,Average
+HIS1108,Male,19,36,1.1,48,32,38,4,Yes,At Risk
+HIS1109,Male,18,68,4.6,59,62,70,0,Yes,Good
+HIS1110,Female,17,86,5.6,99,95,81,0,Yes,Excellent
+HIS1111,Female,17,77,4.2,74,62,61,0,Yes,Good
+HIS1112,Female,19,32,0.9,40,48,41,5,Yes,At Risk
+HIS1113,Male,18,75,4.7,81,80,78,1,No,Good
+HIS1114,Female,18,61,2.9,59,73,50,0,Yes,Average
+HIS1115,Female,21,51,2.3,44,52,60,1,Yes,Poor
+HIS1116,Female,18,86,6.8,99,95,88,0,No,Excellent
+HIS1117,Male,19,67,3.4,58,62,64,2,No,Average
+HIS1118,Male,21,46,0.6,41,50,45,3,No,At Risk
+HIS1119,Female,19,82,5.6,83,88,86,0,No,Excellent
+HIS1120,Male,18,87,6.2,89,100,100,0,Yes,Excellent
+HIS1121,Male,17,98,5.8,100,88,84,0,No,Excellent
+HIS1122,Female,23,87,5.8,81,74,77,0,No,Excellent
+HIS1123,Female,22,78,3.8,58,56,52,2,No,Average
+HIS1124,Male,21,63,1.6,55,44,45,3,Yes,At Risk
+HIS1125,Female,23,41,1.5,44,42,40,5,Yes,At Risk
+HIS1126,Female,19,92,5.9,95,86,98,0,No,Excellent
+HIS1127,Female,19,79,4.1,76,83,81,1,No,Good
+HIS1128,Male,18,78,4.6,85,84,72,0,No,Excellent
+HIS1129,Male,21,64,2.3,72,71,74,0,Yes,Good
+HIS1130,Female,22,55,0.8,45,30,41,3,No,At Risk
+HIS1131,Female,17,54,2.7,49,43,43,2,No,Poor
+HIS1132,Female,18,83,5.5,73,81,90,0,Yes,Excellent
+HIS1133,Male,22,40,0.9,50,46,32,4,Yes,At Risk
+HIS1134,Female,23,40,0.8,47,50,31,2,Yes,At Risk
+HIS1135,Male,22,81,4.5,74,85,70,1,No,Good
+HIS1136,Female,22,91,5.0,87,100,97,0,Yes,Excellent
+HIS1137,Male,19,79,3.1,73,62,70,1,No,Good
+HIS1138,Male,18,84,5.3,85,90,77,1,No,Excellent
+HIS1139,Female,19,94,6.3,99,95,87,0,Yes,Excellent
+HIS1140,Female,19,96,7.1,89,100,95,0,Yes,Excellent
+HIS1141,Female,20,36,1.8,43,31,47,4,No,At Risk
+HIS1142,Male,19,64,1.9,48,41,48,2,Yes,Poor
+HIS1143,Female,18,63,1.4,45,57,46,3,Yes,At Risk
+HIS1144,Male,22,47,0.5,30,42,32,4,No,At Risk
+HIS1145,Male,19,91,6.1,91,90,97,0,Yes,Excellent
+HIS1146,Female,23,73,2.6,62,55,51,0,Yes,Average
+HIS1147,Female,22,51,1.3,49,40,47,3,Yes,At Risk
+HIS1148,Female,17,97,7.0,89,93,82,0,Yes,Excellent
+HIS1149,Male,19,89,5.3,97,91,99,0,No,Excellent
+HIS1150,Female,17,74,2.6,63,75,68,1,No,Average
+HIS1151,Female,22,88,5.1,85,79,87,0,No,Excellent
+HIS1152,Male,20,61,2.5,43,54,47,3,Yes,Poor
+HIS1153,Male,18,75,3.7,75,64,60,0,Yes,Good
+HIS1154,Female,19,57,1.2,52,59,55,3,Yes,At Risk
+HIS1155,Female,22,59,2.5,44,41,50,3,No,At Risk
+HIS1156,Male,17,90,5.1,80,90,72,1,No,Excellent
+HIS1157,Male,20,52,1.8,40,45,56,3,Yes,At Risk
+HIS1158,Female,20,86,7.7,100,90,100,0,Yes,Excellent
+HIS1159,Male,18,94,5.4,94,93,96,0,No,Excellent
+HIS1160,Female,18,76,4.1,74,66,66,2,No,Average
+HIS1161,Female,17,64,2.5,70,55,60,1,Yes,Poor
+HIS1162,Male,21,94,7.1,91,88,97,0,No,Excellent
+HIS1163,Female,19,55,1.1,60,57,47,2,Yes,At Risk
+HIS1164,Male,17,59,1.7,52,48,57,3,Yes,At Risk
+HIS1165,Female,23,83,4.4,88,73,69,1,No,Good
+HIS1166,Male,18,51,1.9,36,35,30,3,Yes,At Risk
+HIS1167,Female,19,90,5.7,80,72,66,0,No,Excellent
+HIS1168,Female,19,76,4.3,62,72,62,1,No,Good
+HIS1169,Female,20,40,1.3,49,36,35,4,Yes,At Risk
+HIS1170,Female,23,63,3.7,68,75,61,0,Yes,Good
+HIS1171,Male,20,73,2.6,72,61,62,1,Yes,Average
+HIS1172,Male,21,76,2.6,73,64,60,0,No,Average
+HIS1173,Male,21,61,3.9,75,70,62,0,No,Good
+HIS1174,Female,17,100,8.0,99,100,85,0,Yes,Excellent
+HIS1175,Female,22,52,0.7,35,34,32,5,Yes,At Risk
+HIS1176,Female,22,95,5.3,93,91,100,0,No,Excellent
+HIS1177,Male,22,86,5.0,82,83,86,0,Yes,Excellent
+HIS1178,Male,19,62,2.5,56,63,69,0,No,Average
+HIS1179,Female,17,77,3.1,65,69,68,2,Yes,Average
+HIS1180,Male,22,87,5.5,87,90,90,0,Yes,Excellent
+HIS1181,Female,17,74,2.2,62,64,71,2,Yes,Poor
+HIS1182,Female,18,59,1.4,44,58,50,2,Yes,At Risk
+HIS1183,Female,19,84,4.5,84,78,67,1,No,Good
+HIS1184,Male,22,44,1.7,35,31,48,5,Yes,At Risk
+HIS1185,Male,19,61,2.3,49,46,50,3,No,At Risk
+HIS1186,Female,21,89,4.5,73,86,86,0,No,Excellent
+HIS1187,Female,23,71,3.7,73,56,60,2,Yes,Average
+HIS1188,Female,18,90,6.3,95,95,100,0,Yes,Excellent
+HIS1189,Female,23,55,2.5,54,59,54,3,No,Poor
+HIS1190,Male,23,83,5.4,89,80,80,1,No,Good
+HIS1191,Male,19,33,1.1,38,48,42,2,Yes,At Risk
+HIS1192,Male,19,52,1.9,36,48,34,3,No,At Risk
+HIS1193,Female,19,86,4.9,75,84,65,0,Yes,Good
+HIS1194,Female,17,90,5.7,91,98,82,0,Yes,Excellent
+HIS1195,Female,23,55,1.7,55,57,52,3,Yes,At Risk
+HIS1196,Female,19,57,2.5,43,52,44,2,Yes,Poor
+HIS1197,Male,23,62,2.1,51,55,58,1,Yes,Poor
+HIS1198,Male,18,86,4.7,86,70,84,1,Yes,Excellent
+HIS1199,Male,20,56,1.1,49,53,42,2,No,Poor
+HIS1200,Female,22,84,4.6,85,71,73,1,Yes,Good
+HIS1201,Female,18,33,1.2,32,41,33,5,Yes,At Risk
+HIS1202,Female,20,46,1.1,44,30,45,5,No,At Risk
+HIS1203,Female,17,80,2.3,69,71,61,1,No,Average
+HIS1204,Female,18,88,5.1,82,72,69,0,No,Excellent
+HIS1205,Male,23,49,1.6,44,43,31,5,No,At Risk
+HIS1206,Female,23,64,1.7,59,51,48,2,No,Poor
+HIS1207,Male,21,93,5.5,96,98,80,0,No,Excellent
+HIS1208,Male,22,96,7.2,97,92,85,0,Yes,Excellent
+HIS1209,Male,19,63,2.8,51,54,59,1,No,Poor
+HIS1210,Female,20,61,2.4,75,58,62,2,Yes,Poor
+HIS1211,Female,19,50,1.4,48,60,42,2,Yes,At Risk
+HIS1212,Female,22,46,1.3,37,31,41,5,Yes,At Risk
+HIS1213,Male,20,83,5.0,71,89,77,0,No,Excellent
+HIS1214,Male,18,75,5.6,74,78,73,1,No,Good
+HIS1215,Female,20,95,5.7,94,99,98,0,No,Excellent
+HIS1216,Male,21,30,1.0,40,41,44,3,No,At Risk
+HIS1217,Male,22,87,4.5,71,88,67,1,No,Good
+HIS1218,Male,21,41,1.0,40,44,44,2,Yes,At Risk
+HIS1219,Female,21,78,3.3,55,64,67,2,No,Average
+HIS1220,Female,18,87,5.2,73,73,77,0,Yes,Good
+HIS1221,Male,22,87,5.1,81,76,78,1,No,Excellent
+HIS1222,Female,18,76,3.6,67,62,62,1,No,Average
+HIS1223,Male,20,87,4.6,87,80,89,1,Yes,Excellent
+HIS1224,Male,21,50,1.1,43,43,36,2,Yes,At Risk
+HIS1225,Female,22,53,1.1,30,40,49,3,Yes,At Risk
+HIS1226,Male,20,96,5.1,97,91,85,0,No,Excellent
+HIS1227,Female,18,85,4.3,72,70,71,1,No,Good
+HIS1228,Male,17,89,5.0,73,89,75,0,Yes,Excellent
+HIS1229,Male,22,98,7.6,100,97,82,0,No,Excellent
+HIS1230,Male,19,50,2.0,30,44,45,2,No,At Risk
+HIS1231,Female,20,64,1.9,43,43,44,2,Yes,At Risk
+HIS1232,Male,20,64,4.7,70,61,58,0,No,Good
+HIS1233,Female,21,57,2.5,50,49,54,2,No,Poor
+HIS1234,Female,22,89,5.4,94,85,87,0,No,Excellent
+HIS1235,Female,23,84,5.0,84,79,69,0,Yes,Excellent
+HIS1236,Male,19,58,2.3,40,46,58,2,Yes,Poor
+HIS1237,Male,21,76,4.2,71,67,65,2,Yes,Average
+HIS1238,Female,20,40,1.3,42,45,50,3,No,At Risk
+HIS1239,Male,22,87,6.0,94,91,87,0,No,Excellent
+HIS1240,Male,20,86,5.0,88,90,65,0,Yes,Excellent
+HIS1241,Female,23,95,6.5,93,87,81,0,Yes,Excellent
+HIS1242,Male,22,82,4.5,84,75,66,1,No,Good
+HIS1243,Male,21,89,6.6,86,91,87,0,No,Excellent
+HIS1244,Female,18,95,7.4,87,91,95,0,No,Excellent
+HIS1245,Male,21,91,6.8,94,85,98,0,Yes,Excellent
+HIS1246,Male,19,54,1.2,30,38,43,4,No,At Risk
+HIS1247,Female,22,45,1.3,50,39,38,3,No,At Risk
+HIS1248,Male,18,53,3.0,45,55,40,2,No,Poor
+HIS1249,Male,18,98,7.0,88,99,90,0,Yes,Excellent
+HIS1250,Male,21,76,2.9,71,70,53,2,No,Average
+HIS1251,Female,22,85,4.3,82,75,70,0,No,Excellent
+HIS1252,Male,19,55,1.1,38,37,38,5,No,At Risk
+HIS1253,Male,23,71,4.5,65,69,59,1,No,Good
+HIS1254,Male,18,51,2.9,51,60,44,2,No,Poor
+HIS1255,Male,23,69,4.5,55,65,63,1,No,Good
+HIS1256,Female,17,89,5.7,73,72,72,0,No,Excellent
+HIS1257,Female,19,65,1.5,59,58,52,1,Yes,Poor
+HIS1258,Female,23,41,1.2,39,33,45,3,Yes,At Risk
+HIS1259,Female,21,79,5.2,88,76,82,0,No,Excellent
+HIS1260,Female,23,54,1.5,47,46,39,2,Yes,At Risk
+HIS1261,Female,19,74,4.2,61,60,60,1,Yes,Average
+HIS1262,Female,23,83,4.5,70,74,68,1,No,Good
+HIS1263,Female,23,86,7.7,96,85,98,0,Yes,Excellent
+HIS1264,Male,21,45,0.9,40,50,32,2,Yes,At Risk
+HIS1265,Female,23,77,5.1,84,89,85,0,Yes,Excellent
+HIS1266,Female,20,74,3.4,59,75,60,0,Yes,Good
+HIS1267,Female,17,54,1.5,43,30,42,4,Yes,At Risk
+HIS1268,Male,23,92,6.0,89,93,87,0,No,Excellent
+HIS1269,Male,17,41,1.8,48,34,36,3,Yes,At Risk
+HIS1270,Male,18,86,7.3,96,87,90,0,Yes,Excellent
+HIS1271,Female,17,65,3.3,63,62,56,1,Yes,Average
+HIS1272,Male,18,50,1.9,46,52,41,2,No,At Risk
+HIS1273,Male,17,53,1.2,45,56,58,3,Yes,At Risk
+HIS1274,Female,20,61,2.5,50,53,46,1,Yes,Poor
+HIS1275,Male,19,76,2.3,69,55,50,1,No,Average
+HIS1276,Female,20,69,4.5,68,75,59,0,Yes,Good
+HIS1277,Male,18,93,7.2,95,86,84,0,Yes,Excellent
+HIS1278,Female,23,34,0.7,45,31,31,3,No,At Risk
+HIS1279,Male,17,88,4.3,86,74,88,0,No,Good
+HIS1280,Male,19,56,1.6,60,51,48,3,No,At Risk
+HIS1281,Male,17,100,5.1,89,98,81,0,Yes,Excellent
+HIS1282,Female,18,67,2.3,57,58,65,1,No,Average
+HIS1283,Female,21,55,1.5,39,45,45,4,Yes,At Risk
+HIS1284,Male,22,100,6.5,91,89,87,0,Yes,Excellent
+HIS1285,Female,19,97,5.8,88,92,87,0,Yes,Excellent
+HIS1286,Male,22,58,2.5,44,50,53,2,Yes,Poor
+HIS1287,Male,20,51,2.6,45,40,44,3,Yes,At Risk
+HIS1288,Male,20,60,3.7,70,66,56,2,No,Average
+HIS1289,Female,19,38,1.3,33,38,50,4,No,At Risk
+HIS1290,Male,21,64,2.3,50,56,48,1,No,Poor
+HIS1291,Female,20,78,4.5,84,73,68,1,Yes,Good
+HIS1292,Male,23,52,2.9,56,45,52,3,Yes,At Risk
+HIS1293,Male,22,91,7.2,96,89,98,0,No,Excellent
+HIS1294,Female,23,35,1.1,33,35,50,3,Yes,At Risk
+HIS1295,Female,18,83,4.1,82,79,77,1,No,Good
+HIS1296,Female,18,60,2.2,72,64,56,2,Yes,Poor
+HIS1297,Male,18,90,5.6,77,82,90,0,No,Excellent
+HIS1298,Female,18,62,2.7,63,59,62,0,Yes,Average
+HIS1299,Female,18,70,2.0,58,71,59,2,Yes,Average
+HIS1300,Female,17,59,2.6,57,59,54,1,Yes,Poor
+HIS1301,Male,21,58,1.2,54,53,58,1,No,Poor
+HIS1302,Male,23,87,8.0,96,92,95,0,No,Excellent
+HIS1303,Male,17,68,4.7,75,71,60,1,No,Good
+HIS1304,Female,21,100,5.7,100,92,98,0,No,Excellent
+HIS1305,Male,17,48,1.1,46,42,31,2,Yes,At Risk
+HIS1306,Female,23,86,5.2,89,83,77,0,No,Excellent
+HIS1307,Female,17,51,2.9,60,53,40,1,Yes,Poor
+HIS1308,Male,19,73,4.4,69,63,61,2,No,Average
+HIS1309,Female,23,51,1.6,60,48,45,1,No,Poor
+HIS1310,Male,22,90,5.7,80,81,84,0,No,Excellent
+HIS1311,Female,19,97,5.9,100,90,92,0,No,Excellent
+HIS1312,Female,21,61,2.5,45,50,40,1,Yes,Poor
+HIS1313,Male,22,39,1.6,47,35,42,2,Yes,At Risk
+HIS1314,Female,17,51,1.1,38,34,40,4,No,At Risk
+HIS1315,Male,22,79,3.7,57,65,57,1,Yes,Average
+HIS1316,Male,19,60,3.5,62,62,57,1,Yes,Average
+HIS1317,Female,22,75,5.7,85,84,78,0,No,Excellent
+HIS1318,Female,21,42,1.6,41,38,43,4,No,At Risk
+HIS1319,Female,21,62,4.9,59,65,72,0,Yes,Good
+HIS1320,Female,21,63,4.4,74,62,73,1,Yes,Good
+HIS1321,Female,21,99,6.9,100,98,82,0,Yes,Excellent
+HIS1322,Female,22,96,6.4,89,87,91,0,No,Excellent
+HIS1323,Female,19,100,6.3,89,97,86,0,No,Excellent
+HIS1324,Male,23,88,4.3,87,88,75,0,Yes,Excellent
+HIS1325,Female,22,87,6.6,90,91,87,0,Yes,Excellent
+HIS1326,Female,18,95,5.3,97,97,93,0,No,Excellent
+HIS1327,Female,18,94,6.1,98,93,95,0,Yes,Excellent
+HIS1328,Female,17,86,6.0,90,72,75,1,Yes,Excellent
+HIS1329,Male,17,31,2.0,31,41,33,3,Yes,At Risk
+HIS1330,Female,18,72,2.9,73,73,61,0,Yes,Average
+HIS1331,Male,21,36,2.0,33,34,49,4,Yes,At Risk
+HIS1332,Male,19,89,4.1,71,87,90,0,No,Excellent
+HIS1333,Female,23,80,5.8,85,76,84,0,No,Excellent
+HIS1334,Female,18,53,2.3,42,50,47,2,Yes,At Risk
+HIS1335,Female,21,51,1.7,55,58,43,3,Yes,Poor
+HIS1336,Male,20,48,1.6,46,42,47,3,No,At Risk
+HIS1337,Male,20,84,5.9,83,82,78,1,Yes,Excellent
+HIS1338,Male,18,95,6.7,97,94,95,0,Yes,Excellent
+HIS1339,Female,18,94,7.7,90,95,81,0,Yes,Excellent
+HIS1340,Male,18,77,2.2,68,71,66,0,No,Good
+HIS1341,Male,17,99,7.8,92,95,82,0,No,Excellent
+HIS1342,Female,23,56,2.8,43,49,40,1,No,Poor
+HIS1343,Female,20,86,5.8,82,71,69,0,Yes,Excellent
+HIS1344,Female,23,52,1.8,50,39,36,4,No,At Risk
+HIS1345,Female,17,62,1.6,46,55,48,3,Yes,Poor
+HIS1346,Female,17,54,2.3,47,42,60,1,Yes,Poor
+HIS1347,Female,17,85,4.3,78,82,74,1,No,Good
+HIS1348,Male,20,97,7.5,91,87,97,0,Yes,Excellent
+HIS1349,Female,21,53,1.2,41,52,45,1,Yes,At Risk
+HIS1350,Female,17,74,4.2,69,74,74,0,Yes,Good
+HIS1351,Male,20,30,1.9,40,38,35,4,No,At Risk
+HIS1352,Female,17,54,2.9,56,42,47,1,Yes,Poor
+HIS1353,Female,17,52,2.7,59,56,49,3,Yes,At Risk
+HIS1354,Male,22,87,6.2,85,90,90,0,Yes,Excellent
+HIS1355,Male,21,75,4.8,88,71,77,0,Yes,Excellent
+HIS1356,Female,20,32,0.5,45,48,50,5,No,At Risk
+HIS1357,Female,18,90,5.2,81,90,79,1,Yes,Excellent
+HIS1358,Female,23,84,5.3,75,82,73,0,No,Good
+HIS1359,Female,18,64,2.1,68,72,57,1,Yes,Average
+HIS1360,Female,19,63,2.8,54,54,54,2,No,Poor
+HIS1361,Male,23,54,2.4,46,47,46,3,Yes,Poor
+HIS1362,Male,20,41,1.9,47,43,41,4,Yes,At Risk
+HIS1363,Male,22,99,5.9,98,86,86,0,No,Excellent
+HIS1364,Male,22,63,1.4,54,40,46,2,Yes,At Risk
+HIS1365,Female,21,56,1.3,50,54,47,3,Yes,At Risk
+HIS1366,Male,19,46,1.6,31,33,32,2,Yes,At Risk
+HIS1367,Female,21,95,7.8,96,91,84,0,No,Excellent
+HIS1368,Female,17,78,4.7,69,70,60,2,Yes,Average
+HIS1369,Female,22,35,1.9,34,35,43,2,No,At Risk
+HIS1370,Female,20,67,4.9,59,69,53,0,Yes,Good
+HIS1371,Male,20,55,2.5,58,51,54,3,Yes,Poor
+HIS1372,Female,22,41,1.8,32,41,32,3,Yes,At Risk
+HIS1373,Female,17,54,1.2,46,60,50,2,Yes,At Risk
+HIS1374,Male,20,48,1.1,35,41,38,3,No,At Risk
+HIS1375,Male,19,65,2.2,62,64,58,1,No,Average
+HIS1376,Female,18,52,1.7,41,44,59,1,Yes,Poor
+HIS1377,Female,18,62,1.8,48,52,50,2,No,Poor
+HIS1378,Male,23,68,3.7,70,64,58,0,No,Good
+HIS1379,Male,19,76,4.7,55,59,75,0,Yes,Good
+HIS1380,Male,18,89,6.7,92,87,82,0,Yes,Excellent
+HIS1381,Male,18,50,1.9,44,50,40,2,Yes,At Risk
+HIS1382,Male,20,90,5.3,87,85,93,0,Yes,Excellent
+HIS1383,Female,22,80,3.6,70,61,72,1,Yes,Good
+HIS1384,Male,21,31,1.2,46,30,32,3,Yes,At Risk
+HIS1385,Female,22,36,1.5,32,36,35,4,Yes,At Risk
+HIS1386,Female,22,39,1.4,46,50,39,3,No,At Risk
+HIS1387,Male,20,75,5.3,78,79,89,0,Yes,Excellent
+HIS1388,Male,19,61,3.9,68,57,71,2,No,Average
+HIS1389,Female,22,54,1.9,41,49,32,4,No,At Risk
+HIS1390,Male,17,61,2.0,55,50,57,3,Yes,At Risk
+HIS1391,Female,18,73,3.4,69,65,75,1,No,Good
+HIS1392,Male,20,87,4.8,70,74,90,1,No,Excellent
+HIS1393,Male,20,60,3.3,60,59,68,0,Yes,Average
+HIS1394,Female,18,54,1.5,46,40,55,2,Yes,At Risk
+HIS1395,Male,19,90,5.2,85,83,78,0,No,Excellent
+HIS1396,Female,20,87,7.9,100,94,84,0,No,Excellent
+HIS1397,Male,21,94,6.9,95,94,99,0,Yes,Excellent
+HIS1398,Female,19,70,4.2,59,66,68,1,Yes,Average
+HIS1399,Female,21,57,1.4,50,47,50,3,No,At Risk
+HIS1400,Female,21,66,4.7,65,75,68,0,Yes,Good
+HIS1401,Female,20,50,1.6,43,52,44,3,No,At Risk
+HIS1402,Male,20,53,0.9,44,42,36,4,Yes,At Risk
+HIS1403,Female,20,82,5.3,80,81,84,1,Yes,Excellent
+HIS1404,Male,22,79,4.6,61,75,56,2,Yes,Average
+HIS1405,Male,18,84,4.5,82,83,87,0,No,Excellent
+HIS1406,Female,22,60,2.1,75,68,52,1,No,Poor
+HIS1407,Female,19,55,2.2,50,43,48,2,No,At Risk
+HIS1408,Male,19,79,4.6,70,73,66,1,No,Good
+HIS1409,Male,22,50,2.3,60,50,52,1,No,Poor
+HIS1410,Male,17,70,3.7,73,56,66,0,Yes,Good
+HIS1411,Male,20,79,4.2,75,77,67,1,No,Good
+HIS1412,Male,23,62,3.5,72,56,66,1,No,Average
+HIS1413,Male,20,89,4.3,78,77,72,0,Yes,Good
+HIS1414,Female,17,86,5.7,92,89,84,0,No,Excellent
+HIS1415,Male,18,54,0.9,30,43,47,2,Yes,At Risk
+HIS1416,Male,21,90,4.0,72,88,76,0,No,Good
+HIS1417,Male,19,94,5.8,96,97,85,0,No,Excellent
+HIS1418,Male,17,72,2.4,64,69,50,1,No,Average
+HIS1419,Female,19,97,7.4,91,91,98,0,Yes,Excellent
+HIS1420,Male,18,51,2.3,47,58,48,1,Yes,Poor
+HIS1421,Female,21,85,4.4,82,80,79,1,Yes,Good
+HIS1422,Male,23,39,1.7,37,32,49,2,Yes,At Risk
+HIS1423,Female,18,93,7.8,94,99,92,0,Yes,Excellent
+HIS1424,Male,17,88,5.5,81,72,73,1,Yes,Excellent
+HIS1425,Male,17,64,2.8,61,58,70,2,Yes,Average
+HIS1426,Male,18,87,7.2,99,93,88,0,No,Excellent
+HIS1427,Male,17,97,7.0,85,86,95,0,No,Excellent
+HIS1428,Female,23,31,1.5,38,39,45,3,No,At Risk
+HIS1429,Male,19,82,5.4,70,90,66,1,No,Good
+HIS1430,Female,22,62,3.8,69,70,67,0,No,Good
+HIS1431,Female,19,47,0.7,50,41,43,3,No,At Risk
+HIS1432,Female,18,64,4.4,70,72,63,1,No,Average
+HIS1433,Male,21,71,3.9,69,72,71,0,Yes,Good
+HIS1434,Female,17,77,3.9,60,73,54,0,No,Average
+HIS1435,Female,20,47,0.6,33,48,30,4,Yes,At Risk
+HIS1436,Female,22,95,7.2,96,97,96,0,Yes,Excellent
+HIS1437,Male,20,53,1.5,60,54,44,3,Yes,At Risk
+HIS1438,Male,23,77,5.4,79,77,89,1,No,Good
+HIS1439,Female,20,75,4.0,79,73,71,0,Yes,Good
+HIS1440,Female,18,98,7.8,97,85,99,0,No,Excellent
+HIS1441,Female,17,73,3.9,70,75,69,2,Yes,Good
+HIS1442,Female,22,60,1.7,48,55,52,3,Yes,At Risk
+HIS1443,Male,22,50,1.8,55,42,55,2,Yes,At Risk
+HIS1444,Female,21,99,6.1,95,92,99,0,Yes,Excellent
+HIS1445,Female,17,56,2.2,43,40,44,3,Yes,At Risk
+HIS1446,Male,22,35,1.2,48,42,47,2,No,At Risk
+HIS1447,Female,20,45,0.8,44,39,35,2,No,At Risk
+HIS1448,Female,23,89,7.9,87,91,95,0,Yes,Excellent
+HIS1449,Male,17,87,4.1,75,77,75,1,Yes,Good
+HIS1450,Female,17,79,4.3,89,88,65,1,No,Good
+HIS1451,Female,21,52,1.1,47,33,43,5,Yes,At Risk
+HIS1452,Male,17,52,1.1,48,51,55,2,Yes,At Risk
+HIS1453,Male,23,77,5.1,76,84,86,1,No,Excellent
+HIS1454,Female,17,88,4.2,71,77,71,0,No,Good
+HIS1455,Male,19,61,3.5,55,58,66,2,No,Average
+HIS1456,Male,17,85,5.8,85,76,71,1,No,Excellent
+HIS1457,Male,23,87,5.1,90,87,90,0,Yes,Excellent
+HIS1458,Female,23,34,1.8,32,45,46,2,Yes,At Risk
+HIS1459,Female,17,67,4.5,68,56,74,1,Yes,Good
+HIS1460,Female,22,86,4.8,89,77,88,0,No,Excellent
+HIS1461,Male,20,82,5.2,79,85,89,0,No,Excellent
+HIS1462,Female,22,87,7.1,89,86,91,0,No,Excellent
+HIS1463,Male,20,69,4.5,74,65,59,1,No,Good
+HIS1464,Female,19,62,4.1,65,72,66,2,Yes,Average
+HIS1465,Female,18,79,3.5,65,65,57,2,Yes,Average
+HIS1466,Male,23,76,4.0,63,63,69,1,Yes,Good
+HIS1467,Male,17,66,4.1,66,72,67,1,Yes,Good
+HIS1468,Male,20,80,2.7,74,75,60,0,No,Good
+HIS1469,Male,19,58,2.9,54,57,50,1,No,Average
+HIS1470,Female,21,97,7.4,97,85,82,0,No,Excellent
+HIS1471,Female,21,38,1.3,43,36,38,2,No,At Risk
+HIS1472,Male,17,100,6.3,95,88,84,0,Yes,Excellent
+HIS1473,Male,17,93,5.3,93,89,83,0,Yes,Excellent
+HIS1474,Female,21,95,7.9,93,94,93,0,Yes,Excellent
+HIS1475,Male,21,67,2.5,72,73,60,0,Yes,Average
+HIS1476,Male,18,30,1.9,32,48,49,4,No,At Risk
+HIS1477,Male,18,57,1.5,59,45,45,1,No,Poor
+HIS1478,Male,20,73,3.7,74,67,64,0,Yes,Good
+HIS1479,Female,20,64,1.3,52,59,52,1,No,Poor
+HIS1480,Male,19,40,1.0,45,46,49,5,No,At Risk
+HIS1481,Female,19,77,5.2,82,75,90,1,Yes,Good
+HIS1482,Male,22,58,1.5,49,47,52,3,No,At Risk
+HIS1483,Male,20,99,7.1,85,97,98,0,No,Excellent
+HIS1484,Female,19,64,2.8,42,53,48,2,Yes,Poor
+HIS1485,Female,19,55,1.3,58,60,56,3,Yes,At Risk
+HIS1486,Female,20,92,5.3,90,87,99,0,No,Excellent
+HIS1487,Male,21,84,4.3,83,78,70,0,No,Good
+HIS1488,Male,17,92,7.6,86,90,89,0,No,Excellent
+HIS1489,Female,22,77,4.1,73,78,90,0,Yes,Excellent
+HIS1490,Female,21,79,5.1,75,77,90,0,No,Excellent
+HIS1491,Female,21,86,6.2,90,86,95,0,Yes,Excellent
+HIS1492,Male,17,74,2.7,60,58,72,0,Yes,Good
+HIS1493,Female,21,54,1.0,54,56,55,3,No,At Risk
+HIS1494,Female,18,61,2.6,58,52,48,3,No,At Risk
+HIS1495,Female,19,91,5.2,96,94,83,0,No,Excellent
+HIS1496,Male,22,95,6.5,85,91,93,0,No,Excellent
+HIS1497,Female,22,72,2.7,55,62,64,1,No,Average
+HIS1498,Male,19,61,2.8,54,44,53,1,Yes,Poor
+HIS1499,Female,17,61,3.1,67,75,63,0,No,Average
+HIS1500,Male,22,52,1.7,46,49,56,1,Yes,At Risk
+HIS1501,Female,19,38,0.6,46,36,50,4,Yes,At Risk
+HIS1502,Female,20,44,1.0,40,39,41,2,Yes,At Risk
+HIS1503,Female,22,31,1.5,47,48,46,2,Yes,At Risk
+HIS1504,Male,17,58,1.3,46,42,59,2,No,At Risk
+HIS1505,Female,21,94,5.0,89,91,93,0,No,Excellent
+HIS1506,Female,23,38,2.0,36,30,32,3,Yes,At Risk
+HIS1507,Female,23,92,6.4,90,100,83,0,No,Excellent
+HIS1508,Male,22,58,2.2,57,50,60,3,No,Poor
+HIS1509,Female,19,46,1.5,49,37,37,2,No,At Risk
+HIS1510,Male,21,39,1.2,42,31,48,4,No,At Risk
+HIS1511,Female,20,82,5.8,77,84,69,0,No,Excellent
+HIS1512,Male,20,40,0.9,37,35,49,5,Yes,At Risk
+HIS1513,Male,20,63,1.3,55,40,50,2,Yes,At Risk
+HIS1514,Male,19,62,2.2,52,53,47,2,Yes,Poor
+HIS1515,Female,20,85,5.2,72,73,67,0,Yes,Good
+HIS1516,Female,22,89,8.0,85,100,85,0,Yes,Excellent
+HIS1517,Male,17,78,2.3,60,64,60,0,Yes,Average
+HIS1518,Female,21,30,1.7,36,35,42,5,Yes,At Risk
+HIS1519,Male,20,32,1.7,39,34,32,5,No,At Risk
+HIS1520,Female,21,37,1.5,31,42,40,3,No,At Risk
+HIS1521,Female,18,69,4.0,67,68,75,0,No,Good
+HIS1522,Male,20,89,4.3,74,71,67,0,Yes,Good
+HIS1523,Female,20,79,5.4,79,80,87,1,Yes,Excellent
+HIS1524,Female,18,94,7.8,91,100,100,0,No,Excellent
+HIS1525,Female,23,62,2.1,63,67,55,1,No,Average
+HIS1526,Male,19,74,2.4,65,68,71,1,Yes,Average
+HIS1527,Female,19,52,2.0,50,44,41,1,Yes,Poor
+HIS1528,Male,17,80,4.8,70,90,76,1,No,Good
+HIS1529,Male,20,56,1.4,50,56,48,3,No,At Risk
+HIS1530,Female,21,99,7.9,94,99,81,0,No,Excellent
+HIS1531,Male,20,100,7.5,98,99,99,0,No,Excellent
+HIS1532,Female,17,69,4.7,56,62,71,2,No,Average
+HIS1533,Male,23,37,0.6,44,37,42,2,No,At Risk
+HIS1534,Male,20,77,4.4,72,68,50,2,No,Good
+HIS1535,Female,18,36,1.3,47,39,33,3,No,At Risk
+HIS1536,Male,18,50,0.8,43,32,40,3,No,At Risk
+HIS1537,Female,17,65,4.0,63,68,55,1,Yes,Average
+HIS1538,Male,18,69,5.0,72,75,52,0,Yes,Good
+HIS1539,Male,20,93,7.9,88,99,90,0,No,Excellent
+HIS1540,Female,22,38,1.7,41,32,41,3,No,At Risk
+HIS1541,Female,17,87,8.0,90,89,90,0,Yes,Excellent
+HIS1542,Male,18,72,4.4,68,58,75,2,No,Average
+HIS1543,Female,22,50,1.2,48,32,37,5,No,At Risk
+HIS1544,Female,22,66,4.7,56,69,56,0,No,Average
+HIS1545,Male,21,73,4.2,55,65,64,0,Yes,Average
+HIS1546,Female,21,90,5.0,87,80,68,0,No,Excellent
+HIS1547,Female,18,59,1.1,43,41,49,3,Yes,At Risk
+HIS1548,Female,20,70,4.5,57,71,61,0,No,Good
+HIS1549,Male,17,85,7.9,95,90,82,0,Yes,Excellent
+HIS1550,Male,19,70,3.0,58,60,68,0,Yes,Average
+HIS1551,Female,17,77,4.3,57,72,68,2,No,Average
+HIS1552,Male,17,51,1.6,53,42,50,2,Yes,At Risk
+HIS1553,Male,19,30,0.7,45,31,45,4,No,At Risk
+HIS1554,Male,22,82,4.2,75,75,85,0,Yes,Excellent
+HIS1555,Male,20,80,5.5,86,77,78,0,No,Excellent
+HIS1556,Male,20,37,0.6,36,49,42,3,No,At Risk
+HIS1557,Female,17,43,1.9,39,38,37,2,No,At Risk
+HIS1558,Male,18,97,6.8,93,89,98,0,Yes,Excellent
+HIS1559,Male,21,92,8.0,86,87,92,0,Yes,Excellent
+HIS1560,Male,18,91,7.2,85,98,83,0,Yes,Excellent
+HIS1561,Male,23,96,6.0,98,97,96,0,No,Excellent
+HIS1562,Male,19,81,4.8,76,77,80,1,No,Good
+HIS1563,Male,19,98,6.4,86,86,94,0,Yes,Excellent
+HIS1564,Female,22,84,4.6,83,70,80,0,No,Excellent
+HIS1565,Male,20,89,4.4,78,85,77,1,Yes,Excellent
+HIS1566,Female,22,75,5.6,90,85,77,0,Yes,Excellent
+HIS1567,Male,17,76,2.8,58,63,71,2,No,Average
+HIS1568,Male,18,33,0.9,39,38,37,3,No,At Risk
+HIS1569,Male,22,95,7.3,98,95,80,0,Yes,Excellent
+HIS1570,Female,17,73,2.8,63,73,56,2,No,Average
+HIS1571,Male,21,65,2.2,47,50,41,2,No,Poor
+HIS1572,Male,18,75,2.7,72,55,72,0,Yes,Good
+HIS1573,Male,22,51,1.4,53,57,42,1,No,Poor
+HIS1574,Female,18,81,4.7,71,78,65,1,Yes,Good
+HIS1575,Female,21,95,7.8,88,87,88,0,Yes,Excellent
+HIS1576,Male,21,75,5.9,85,76,90,1,No,Good
+HIS1577,Male,17,37,1.9,38,30,43,4,No,At Risk
+HIS1578,Male,23,85,7.0,91,90,85,0,Yes,Excellent
+HIS1579,Male,17,81,4.3,84,71,86,1,Yes,Good
+HIS1580,Female,17,91,6.1,94,98,84,0,Yes,Excellent
+HIS1581,Male,18,86,4.1,75,83,68,0,Yes,Good
+HIS1582,Male,23,53,1.9,45,48,56,3,No,At Risk
+HIS1583,Female,19,47,1.5,36,44,43,3,No,At Risk
+HIS1584,Female,17,36,1.9,30,36,42,4,No,At Risk
+HIS1585,Male,17,33,1.7,34,31,37,2,No,At Risk
+HIS1586,Male,19,35,1.3,37,34,37,2,Yes,At Risk
+HIS1587,Female,20,47,0.6,38,40,47,3,Yes,At Risk
+HIS1588,Female,22,79,5.6,77,90,67,0,No,Excellent
+HIS1589,Male,23,32,1.6,40,44,35,4,No,At Risk
+HIS1590,Male,17,85,7.3,85,85,82,0,Yes,Excellent
+HIS1591,Male,22,90,5.9,73,84,90,1,Yes,Excellent
+HIS1592,Male,17,86,4.6,73,86,85,1,No,Good
+HIS1593,Male,18,34,1.4,48,47,45,4,No,At Risk
+HIS1594,Female,20,84,5.0,71,80,77,1,Yes,Excellent
+HIS1595,Female,17,86,6.8,85,93,87,0,No,Excellent
+HIS1596,Female,18,76,2.8,59,67,62,2,Yes,Average
+HIS1597,Male,23,76,2.7,65,66,71,0,No,Average
+HIS1598,Male,18,42,1.6,47,31,50,5,Yes,At Risk
+HIS1599,Male,17,64,2.2,40,59,60,3,Yes,At Risk
+HIS1600,Female,23,61,4.8,67,63,66,0,Yes,Good
+HIS1601,Male,20,90,5.0,77,86,71,1,Yes,Excellent
+HIS1602,Female,20,67,2.5,57,59,72,1,No,Average
+HIS1603,Male,19,65,2.1,68,59,61,2,No,Poor
+HIS1604,Female,23,62,3.4,56,67,59,2,No,Poor
+HIS1605,Male,19,69,4.6,56,60,62,0,No,Good
+HIS1606,Male,23,75,5.3,85,82,74,1,No,Good
+HIS1607,Male,20,78,4.7,87,86,81,0,No,Excellent
+HIS1608,Male,18,52,0.6,40,31,39,2,No,At Risk
+HIS1609,Male,23,86,4.4,86,78,83,1,Yes,Good
+HIS1610,Male,21,78,4.2,89,84,81,1,Yes,Excellent
+HIS1611,Female,18,82,5.2,90,76,80,0,Yes,Excellent
+HIS1612,Male,20,98,7.6,87,87,99,0,No,Excellent
+HIS1613,Male,21,43,1.7,46,30,30,3,Yes,At Risk
+HIS1614,Female,20,95,7.3,88,89,99,0,Yes,Excellent
+HIS1615,Female,21,58,2.5,59,43,53,1,Yes,Poor
+HIS1616,Female,17,64,4.7,57,64,69,0,Yes,Good
+HIS1617,Male,23,39,0.8,42,46,45,4,Yes,At Risk
+HIS1618,Male,20,56,1.3,45,46,59,3,Yes,At Risk
+HIS1619,Female,22,70,3.0,57,57,58,0,No,Average
+HIS1620,Male,21,96,6.9,95,92,95,0,No,Excellent
+HIS1621,Male,19,88,7.2,98,85,81,0,Yes,Excellent
+HIS1622,Female,22,62,2.8,42,40,52,1,No,Poor
+HIS1623,Male,20,78,5.9,76,78,75,1,Yes,Excellent
+HIS1624,Female,19,33,1.2,45,43,47,3,Yes,At Risk
+HIS1625,Female,23,88,5.7,85,99,86,0,No,Excellent
+HIS1626,Female,21,53,1.8,34,43,31,3,Yes,At Risk
+HIS1627,Male,23,86,5.3,96,99,80,0,No,Excellent
+HIS1628,Female,23,69,3.7,55,69,58,2,Yes,Average
+HIS1629,Female,18,48,1.7,39,47,50,5,Yes,At Risk
+HIS1630,Male,19,55,1.0,42,50,48,3,Yes,At Risk
+HIS1631,Female,23,94,6.7,91,90,86,0,Yes,Excellent
+HIS1632,Female,22,88,4.8,87,71,78,0,No,Excellent
+HIS1633,Male,21,99,7.3,85,99,85,0,No,Excellent
+HIS1634,Male,23,37,1.0,49,41,50,3,Yes,At Risk
+HIS1635,Male,21,60,4.7,68,58,54,2,No,Average
+HIS1636,Female,17,87,5.2,81,87,86,0,No,Excellent
+HIS1637,Female,23,42,1.4,41,43,50,2,Yes,At Risk
+HIS1638,Female,23,53,2.3,44,46,56,2,No,At Risk
+HIS1639,Male,23,83,4.8,74,77,83,1,No,Excellent
+HIS1640,Male,17,90,6.4,92,85,80,0,No,Excellent
+HIS1641,Male,20,97,6.5,87,87,86,0,Yes,Excellent
+HIS1642,Female,20,31,1.4,38,32,39,2,No,At Risk
+HIS1643,Male,22,81,5.7,84,90,78,0,Yes,Excellent
+HIS1644,Male,17,68,2.1,70,69,64,2,No,Average
+HIS1645,Male,22,54,2.5,53,44,59,1,No,Poor
+HIS1646,Male,20,65,2.8,41,45,58,3,Yes,Poor
+HIS1647,Male,18,51,1.3,32,36,36,3,No,At Risk
+HIS1648,Male,20,71,4.1,60,61,61,1,Yes,Average
+HIS1649,Male,18,91,7.5,90,88,82,0,Yes,Excellent
+HIS1650,Male,18,57,2.7,50,44,54,2,No,Poor
+HIS1651,Female,17,89,4.1,87,79,74,1,Yes,Good
+HIS1652,Male,20,87,4.6,71,73,78,1,No,Good
+HIS1653,Female,22,83,5.7,82,85,82,0,Yes,Excellent
+HIS1654,Male,17,35,1.9,32,30,35,2,No,At Risk
+HIS1655,Female,18,83,5.0,83,75,83,1,No,Excellent
+HIS1656,Female,20,57,2.7,57,47,43,3,Yes,Poor
+HIS1657,Male,20,95,5.7,99,85,95,0,No,Excellent
+HIS1658,Female,23,51,1.8,55,47,52,3,Yes,At Risk
+HIS1659,Male,17,97,6.6,87,90,85,0,No,Excellent
+HIS1660,Male,22,61,1.0,50,57,54,1,No,Poor
+HIS1661,Male,21,90,5.2,89,95,98,0,No,Excellent
+HIS1662,Male,17,47,1.7,38,37,43,4,Yes,At Risk
+HIS1663,Female,22,61,4.9,62,72,63,2,No,Average
+HIS1664,Female,20,84,5.8,80,89,81,0,Yes,Excellent
+HIS1665,Male,21,46,1.2,31,50,44,2,No,At Risk
+HIS1666,Female,23,64,1.8,46,57,45,1,No,Poor
+HIS1667,Male,23,87,7.2,99,100,99,0,No,Excellent
+HIS1668,Male,20,48,1.9,46,45,34,3,No,At Risk
+HIS1669,Male,22,95,7.0,85,97,100,0,Yes,Excellent
+HIS1670,Female,21,60,4.0,66,67,62,2,No,Average
+HIS1671,Female,19,85,7.0,90,93,97,0,No,Excellent
+HIS1672,Male,22,87,4.9,82,76,69,1,No,Good
+HIS1673,Male,19,83,5.6,77,76,82,0,No,Excellent
+HIS1674,Male,20,95,5.6,95,100,85,0,No,Excellent
+HIS1675,Male,21,37,1.8,37,40,46,4,Yes,At Risk
+HIS1676,Female,17,61,1.7,60,55,56,2,No,Poor
+HIS1677,Male,22,40,1.6,39,38,37,2,Yes,At Risk
+HIS1678,Male,21,48,0.6,33,45,49,5,Yes,At Risk
+HIS1679,Male,19,78,2.7,56,57,61,0,No,Average
+HIS1680,Male,23,74,2.3,65,61,53,0,Yes,Average
+HIS1681,Male,17,65,2.5,56,43,47,2,No,Poor
+HIS1682,Female,18,38,1.9,34,50,33,4,Yes,At Risk
+HIS1683,Male,23,62,2.2,43,58,56,2,Yes,Poor
+HIS1684,Male,18,50,1.5,44,47,56,3,No,At Risk
+HIS1685,Female,19,77,4.4,68,68,51,1,No,Good
+HIS1686,Female,22,65,2.4,65,71,60,2,No,Average
+HIS1687,Male,17,43,1.9,40,49,39,3,Yes,At Risk
+HIS1688,Male,21,60,1.1,40,41,41,1,No,At Risk
+HIS1689,Male,17,77,5.9,74,90,68,1,No,Good
+HIS1690,Male,22,70,3.4,71,61,70,2,No,Average
+HIS1691,Male,20,94,5.9,97,97,98,0,Yes,Excellent
+HIS1692,Female,23,64,2.4,49,60,53,1,Yes,Poor
+HIS1693,Male,22,53,1.6,41,39,36,2,Yes,At Risk
+HIS1694,Female,21,81,5.7,74,76,84,0,Yes,Excellent
+HIS1695,Female,18,86,6.1,85,87,96,0,No,Excellent
+HIS1696,Male,22,89,4.7,87,75,89,1,No,Excellent
+HIS1697,Female,20,55,2.6,51,55,54,2,No,Poor
+HIS1698,Female,20,87,4.3,88,71,75,0,Yes,Excellent
+HIS1699,Female,18,37,1.6,42,31,47,3,No,At Risk
+HIS1700,Male,18,99,7.1,91,99,86,0,Yes,Excellent
+HIS1701,Male,22,81,5.5,75,73,88,1,No,Excellent
+HIS1702,Male,19,67,3.7,59,62,55,1,No,Average
+HIS1703,Male,23,39,0.9,33,45,50,5,No,At Risk
+HIS1704,Female,21,59,1.5,40,58,50,2,No,Poor
+HIS1705,Male,17,90,7.7,99,85,85,0,No,Excellent
+HIS1706,Male,20,67,4.0,74,69,74,2,No,Average
+HIS1707,Male,18,64,3.7,72,71,57,0,Yes,Average
+HIS1708,Female,23,72,4.2,56,72,56,0,Yes,Average
+HIS1709,Male,22,45,1.4,44,46,46,5,No,At Risk
+HIS1710,Male,17,76,3.1,62,75,67,1,Yes,Average
+HIS1711,Female,17,69,2.7,67,75,52,2,No,Poor
+HIS1712,Female,22,65,4.9,73,57,50,0,Yes,Good
+HIS1713,Male,17,87,5.9,100,93,100,0,Yes,Excellent
+HIS1714,Male,18,43,2.0,32,36,48,5,Yes,At Risk
+HIS1715,Female,20,51,2.3,44,43,46,1,Yes,Poor
+HIS1716,Male,18,54,1.1,59,42,43,1,No,Poor
+HIS1717,Male,21,76,4.2,71,84,69,1,No,Good
+HIS1718,Male,22,76,4.6,76,83,77,1,Yes,Good
+HIS1719,Male,17,89,5.3,79,86,68,0,No,Excellent
+HIS1720,Female,18,60,4.4,67,75,66,0,No,Good
+HIS1721,Male,23,84,4.8,70,88,71,1,No,Good
+HIS1722,Male,20,91,7.1,96,89,98,0,Yes,Excellent
+HIS1723,Female,23,89,5.8,98,96,97,0,No,Excellent
+HIS1724,Female,17,81,5.7,78,72,88,0,Yes,Excellent
+HIS1725,Male,18,53,1.7,45,55,47,3,No,At Risk
+HIS1726,Male,18,49,0.6,32,43,43,2,No,At Risk
+HIS1727,Male,18,76,4.0,58,65,60,1,Yes,Good
+HIS1728,Female,19,61,2.7,58,55,69,1,No,Average
+HIS1729,Female,20,59,2.2,51,54,58,3,No,Poor
+HIS1730,Male,17,82,4.5,73,74,90,1,No,Good
+HIS1731,Male,17,86,7.3,88,86,86,0,No,Excellent
+HIS1732,Male,21,62,1.6,42,55,45,2,Yes,Poor
+HIS1733,Male,18,96,6.3,89,85,83,0,Yes,Excellent
+HIS1734,Male,17,31,1.1,33,37,31,5,Yes,At Risk
+HIS1735,Male,22,71,4.9,63,70,59,0,No,Good
+HIS1736,Female,21,75,4.0,83,75,76,1,No,Good
+HIS1737,Male,21,75,2.1,58,72,50,1,Yes,Average
+HIS1738,Male,19,55,2.6,54,48,53,2,No,Poor
+HIS1739,Female,20,32,1.3,34,45,30,2,Yes,At Risk
+HIS1740,Male,20,53,1.6,50,60,58,1,Yes,Poor
+HIS1741,Male,21,45,1.5,33,38,31,2,No,At Risk
+HIS1742,Male,19,32,1.7,48,50,38,2,No,At Risk
+HIS1743,Female,22,76,4.5,89,86,66,1,No,Good
+HIS1744,Female,17,77,4.4,88,84,86,0,No,Excellent
+HIS1745,Female,21,62,2.9,44,46,55,2,Yes,Poor
+HIS1746,Female,21,67,2.7,60,65,63,0,Yes,Average
+HIS1747,Male,17,33,2.0,44,30,32,4,Yes,At Risk
+HIS1748,Male,23,89,4.1,84,87,70,0,Yes,Excellent
+HIS1749,Female,18,75,5.3,90,78,68,0,Yes,Excellent
+HIS1750,Female,19,87,7.9,85,94,96,0,Yes,Excellent
+HIS1751,Female,21,77,2.4,58,69,61,2,Yes,Average
+HIS1752,Male,20,74,4.8,72,60,51,0,No,Good
+HIS1753,Female,17,60,1.9,42,45,46,2,Yes,At Risk
+HIS1754,Female,21,90,6.5,100,93,85,0,Yes,Excellent
+HIS1755,Male,23,51,1.5,58,51,47,3,Yes,At Risk
+HIS1756,Female,22,43,0.7,43,31,45,3,Yes,At Risk
+HIS1757,Female,22,47,0.8,42,41,33,5,No,At Risk
+HIS1758,Female,17,98,7.1,94,97,92,0,No,Excellent
+HIS1759,Female,17,74,3.5,59,57,64,0,Yes,Good
+HIS1760,Male,17,54,1.3,51,58,47,3,No,At Risk
+HIS1761,Male,20,48,1.9,37,38,47,5,Yes,At Risk
+HIS1762,Male,17,83,4.8,74,86,79,0,No,Good
+HIS1763,Male,23,62,2.6,58,73,74,2,Yes,Average
+HIS1764,Male,18,88,4.2,76,85,88,1,Yes,Good
+HIS1765,Female,23,93,6.0,88,97,90,0,Yes,Excellent
+HIS1766,Male,23,75,2.4,58,74,53,1,No,Average
+HIS1767,Male,23,84,4.5,88,83,77,0,No,Excellent
+HIS1768,Female,23,34,1.6,49,47,48,2,Yes,At Risk
+HIS1769,Female,21,34,0.6,32,44,38,5,Yes,At Risk
+HIS1770,Female,19,87,5.3,78,87,78,0,No,Excellent
+HIS1771,Male,17,42,1.4,32,40,40,4,No,At Risk
+HIS1772,Male,19,89,7.2,90,86,95,0,Yes,Excellent
+HIS1773,Female,18,87,6.4,98,86,87,0,Yes,Excellent
+HIS1774,Female,17,54,1.2,58,48,50,2,Yes,At Risk
+HIS1775,Female,20,85,6.8,94,89,89,0,Yes,Excellent
+HIS1776,Male,19,58,2.6,57,59,53,2,No,Poor
+HIS1777,Female,21,58,1.3,49,50,53,2,No,Poor
+HIS1778,Male,18,99,7.3,94,95,87,0,Yes,Excellent
+HIS1779,Female,17,68,4.4,67,59,70,0,No,Good
+HIS1780,Male,17,97,6.9,96,92,81,0,No,Excellent
+HIS1781,Male,23,79,4.6,84,83,80,1,No,Good
+HIS1782,Male,19,79,2.2,55,58,52,0,No,Average
+HIS1783,Male,17,38,1.3,46,50,42,2,Yes,At Risk
+HIS1784,Female,20,62,2.0,55,57,44,1,Yes,Poor
+HIS1785,Male,18,93,6.3,98,93,85,0,Yes,Excellent
+HIS1786,Female,23,91,6.6,92,100,90,0,No,Excellent
+HIS1787,Male,19,31,1.2,41,50,35,4,No,At Risk
+HIS1788,Male,17,78,5.3,77,86,75,1,No,Good
+HIS1789,Male,23,58,1.6,51,49,60,2,No,At Risk
+HIS1790,Male,20,88,5.4,91,89,94,0,No,Excellent
+HIS1791,Male,17,62,2.5,47,49,60,3,Yes,Poor
+HIS1792,Female,18,87,5.4,72,85,76,0,Yes,Excellent
+HIS1793,Male,19,93,6.0,91,86,92,0,No,Excellent
+HIS1794,Male,22,37,1.0,37,39,30,2,Yes,At Risk
+HIS1795,Female,19,64,1.9,49,56,42,2,No,At Risk
+HIS1796,Female,21,71,2.8,68,56,67,0,No,Average
+HIS1797,Male,18,36,1.2,47,33,30,4,Yes,At Risk
+HIS1798,Male,23,44,1.9,46,38,47,5,No,At Risk
+HIS1799,Female,23,31,1.0,40,45,48,3,No,At Risk
+HIS1800,Male,19,54,1.5,47,41,42,3,No,At Risk
+HIS1801,Male,18,81,5.7,90,77,83,1,Yes,Excellent
+HIS1802,Male,21,55,0.7,33,50,47,5,Yes,At Risk
+HIS1803,Male,17,80,5.0,86,71,87,0,Yes,Excellent
+HIS1804,Female,20,85,5.6,90,85,80,0,No,Excellent
+HIS1805,Male,19,86,7.7,100,97,83,0,Yes,Excellent
+HIS1806,Male,21,52,1.6,47,57,49,2,Yes,Poor
+HIS1807,Female,20,54,0.6,45,38,43,3,Yes,At Risk
+HIS1808,Female,18,40,1.7,33,31,30,3,Yes,At Risk
+HIS1809,Female,17,96,7.5,93,95,98,0,No,Excellent
+HIS1810,Female,19,98,6.3,97,98,88,0,Yes,Excellent
+HIS1811,Female,21,62,4.1,62,64,50,1,No,Average
+HIS1812,Male,20,38,1.7,45,31,46,2,No,At Risk
+HIS1813,Female,21,56,1.6,44,52,57,3,No,At Risk
+HIS1814,Female,23,50,2.1,57,53,57,3,Yes,Poor
+HIS1815,Male,21,32,1.0,41,48,43,3,No,At Risk
+HIS1816,Female,22,62,1.0,59,47,44,1,Yes,Poor
+HIS1817,Male,19,74,4.5,75,71,68,2,Yes,Good
+HIS1818,Female,17,85,7.3,96,89,82,0,No,Excellent
+HIS1819,Male,23,65,1.9,42,44,55,2,No,Poor
+HIS1820,Female,18,88,6.6,89,93,82,0,Yes,Excellent
+HIS1821,Female,22,79,5.2,85,80,81,0,No,Excellent
+HIS1822,Female,23,68,4.7,58,72,61,2,No,Average
+HIS1823,Female,23,95,6.3,89,85,98,0,Yes,Excellent
+HIS1824,Female,19,85,7.8,86,87,100,0,Yes,Excellent
+HIS1825,Female,22,99,5.5,89,93,95,0,Yes,Excellent
+HIS1826,Female,22,60,2.2,70,71,70,2,Yes,Poor
+HIS1827,Female,17,57,1.2,53,42,52,3,No,At Risk
+HIS1828,Male,23,96,7.8,86,87,83,0,Yes,Excellent
+HIS1829,Female,18,53,3.0,42,50,45,2,Yes,At Risk
+HIS1830,Female,21,51,2.6,44,46,41,1,No,Poor
+HIS1831,Female,21,60,2.0,70,63,72,2,Yes,Average
+HIS1832,Male,23,69,2.7,75,59,75,2,No,Average
+HIS1833,Male,20,61,1.3,48,48,55,1,No,Poor
+HIS1834,Female,17,84,5.6,72,76,89,0,Yes,Excellent
+HIS1835,Female,18,86,5.5,89,82,72,0,Yes,Excellent
+HIS1836,Female,21,74,2.8,62,65,54,1,Yes,Average
+HIS1837,Female,21,51,2.5,54,46,58,3,Yes,At Risk
+HIS1838,Male,21,36,1.3,35,40,37,5,No,At Risk
+HIS1839,Female,21,95,6.0,99,99,88,0,No,Excellent
+HIS1840,Male,21,71,2.2,67,60,56,2,Yes,Poor
+HIS1841,Male,18,70,2.3,70,75,72,1,Yes,Average
+HIS1842,Female,22,87,8.0,99,97,83,0,Yes,Excellent
+HIS1843,Female,18,62,1.1,45,45,60,1,No,Poor
+HIS1844,Female,19,68,4.1,57,60,50,0,Yes,Average
+HIS1845,Female,17,41,1.8,31,30,35,5,Yes,At Risk
+HIS1846,Female,17,66,4.6,60,66,75,2,No,Average
+HIS1847,Female,21,59,1.1,55,43,54,3,Yes,At Risk
+HIS1848,Male,17,31,1.9,48,41,50,2,Yes,At Risk
+HIS1849,Female,19,97,5.9,91,94,80,0,Yes,Excellent
+HIS1850,Female,22,76,5.8,83,71,81,1,Yes,Good
+HIS1851,Male,19,33,1.9,50,40,49,3,No,At Risk
+HIS1852,Female,21,40,0.7,41,42,32,2,Yes,At Risk
+HIS1853,Female,22,30,1.5,42,48,43,2,Yes,At Risk
+HIS1854,Male,21,65,1.5,47,55,56,2,Yes,Poor
+HIS1855,Female,20,69,3.7,66,62,50,0,No,Good
+HIS1856,Female,18,85,4.7,76,75,85,1,Yes,Good
+HIS1857,Female,18,60,1.5,52,45,49,1,No,Poor
+HIS1858,Male,17,31,1.4,48,34,37,3,No,At Risk
+HIS1859,Female,21,86,6.7,98,86,91,0,Yes,Excellent
+HIS1860,Male,21,67,2.0,58,57,62,1,No,Poor
+HIS1861,Male,17,94,7.7,95,99,90,0,No,Excellent
+HIS1862,Male,23,88,4.6,82,71,72,0,No,Excellent
+HIS1863,Male,22,89,6.4,96,90,82,0,No,Excellent
+HIS1864,Male,18,34,0.5,44,33,32,4,Yes,At Risk
+HIS1865,Male,21,88,5.4,75,73,85,0,Yes,Excellent
+HIS1866,Female,18,45,1.6,41,48,33,5,Yes,At Risk
+HIS1867,Male,22,41,1.0,47,32,48,4,No,At Risk
+HIS1868,Male,17,97,6.7,86,86,90,0,No,Excellent
+HIS1869,Female,19,42,1.4,34,46,48,5,Yes,At Risk
+HIS1870,Male,17,61,4.0,71,59,55,2,No,Average
+HIS1871,Male,17,81,5.2,87,74,85,0,Yes,Excellent
+HIS1872,Male,17,62,2.8,70,63,70,0,Yes,Average
+HIS1873,Male,22,61,2.2,46,40,44,3,Yes,At Risk
+HIS1874,Female,23,76,4.6,74,77,69,0,No,Good
+HIS1875,Female,17,78,4.5,76,71,89,0,Yes,Excellent
+HIS1876,Female,20,58,1.8,40,41,51,3,Yes,At Risk
+HIS1877,Male,22,72,4.7,58,74,67,0,Yes,Good
+HIS1878,Male,17,77,4.8,72,85,74,1,Yes,Good
+HIS1879,Male,21,93,5.7,93,87,99,0,No,Excellent
+HIS1880,Female,23,91,7.8,98,100,80,0,No,Excellent
+HIS1881,Male,21,62,1.9,41,52,47,3,No,At Risk
+HIS1882,Male,20,55,1.1,41,31,39,4,No,At Risk
+HIS1883,Female,19,62,3.0,49,59,46,3,Yes,Poor
+HIS1884,Female,18,94,6.9,97,90,94,0,Yes,Excellent
+HIS1885,Female,19,53,1.2,44,48,46,2,Yes,At Risk
+HIS1886,Female,18,78,5.4,86,90,66,1,Yes,Excellent
+HIS1887,Male,21,84,5.8,72,89,83,1,No,Excellent
+HIS1888,Male,18,67,4.7,64,69,55,1,Yes,Good
+HIS1889,Female,20,83,5.9,71,77,67,0,No,Excellent
+HIS1890,Female,23,96,7.9,93,96,94,0,No,Excellent
+HIS1891,Female,19,62,2.2,48,60,50,1,No,Poor
+HIS1892,Male,19,45,2.0,38,42,42,5,Yes,At Risk
+HIS1893,Female,21,77,4.4,79,81,65,0,No,Excellent
+HIS1894,Female,23,95,5.6,97,89,90,0,No,Excellent
+HIS1895,Female,23,55,1.2,47,40,54,2,Yes,At Risk
+HIS1896,Male,18,33,0.9,42,33,39,2,No,At Risk
+HIS1897,Female,18,88,5.6,79,80,74,0,Yes,Excellent
+HIS1898,Female,18,57,1.2,40,40,57,3,Yes,At Risk
+HIS1899,Male,19,78,4.2,87,84,67,1,No,Good
+HIS1900,Male,20,65,3.3,71,69,58,1,No,Average
+HIS1901,Female,20,80,5.7,70,86,78,1,Yes,Good
+HIS1902,Male,17,54,2.2,52,50,53,1,Yes,Poor
+HIS1903,Male,17,61,3.9,56,75,72,1,Yes,Average
+HIS1904,Male,22,70,3.9,56,56,50,0,No,Good
+HIS1905,Male,21,77,4.6,80,84,86,0,Yes,Excellent
+HIS1906,Male,17,67,4.9,58,61,74,1,Yes,Good
+HIS1907,Male,21,78,4.4,89,81,76,0,No,Good
+HIS1908,Male,18,90,5.6,81,74,88,1,No,Excellent
+HIS1909,Female,19,80,4.3,84,77,87,0,Yes,Good
+HIS1910,Female,17,57,2.6,47,44,47,2,No,At Risk
+HIS1911,Female,23,62,1.2,41,57,54,1,Yes,Poor
+HIS1912,Male,18,90,7.5,91,97,81,0,Yes,Excellent
+HIS1913,Female,22,53,1.7,57,47,57,3,Yes,At Risk
+HIS1914,Female,18,58,2.1,48,52,55,1,No,Poor
+HIS1915,Male,23,81,6.0,76,74,69,0,Yes,Excellent
+HIS1916,Female,20,39,0.9,34,41,47,3,Yes,At Risk
+HIS1917,Female,23,97,5.5,95,91,91,0,No,Excellent
+HIS1918,Female,19,77,5.7,73,87,66,1,No,Excellent
+HIS1919,Female,18,92,5.0,95,92,97,0,Yes,Excellent
+HIS1920,Female,18,87,5.7,97,90,92,0,No,Excellent
+HIS1921,Male,19,53,1.2,41,42,32,4,No,At Risk
+HIS1922,Female,22,68,3.7,60,75,71,0,No,Average
+HIS1923,Male,21,62,2.2,65,65,63,1,Yes,Average
+HIS1924,Female,23,56,2.2,54,57,55,2,Yes,Poor
+HIS1925,Female,17,89,5.1,90,98,85,0,Yes,Excellent
+HIS1926,Female,20,77,4.3,72,76,83,0,No,Excellent
+HIS1927,Male,20,48,1.5,42,31,48,5,Yes,At Risk
+HIS1928,Male,20,65,1.5,59,45,44,2,No,Poor
+HIS1929,Male,23,78,4.9,72,74,65,2,No,Good
+HIS1930,Male,17,84,4.4,89,72,85,1,No,Good
+HIS1931,Male,17,51,1.6,48,50,40,3,Yes,At Risk
+HIS1932,Female,19,78,5.2,81,70,89,1,No,Excellent
+HIS1933,Female,21,50,1.2,39,45,30,2,Yes,At Risk
+HIS1934,Female,21,62,1.6,57,53,55,2,No,Poor
+HIS1935,Male,19,59,2.8,42,53,46,2,No,Poor
+HIS1936,Male,17,61,2.1,62,66,60,2,Yes,Poor
+HIS1937,Male,17,53,1.1,38,48,43,3,No,At Risk
+HIS1938,Female,21,50,1.0,48,42,37,4,Yes,At Risk
+HIS1939,Female,22,50,1.4,51,43,45,3,Yes,At Risk
+HIS1940,Female,19,88,4.6,72,80,84,1,No,Excellent
+HIS1941,Female,22,73,4.0,62,64,60,1,No,Average
+HIS1942,Male,23,62,4.4,64,74,53,1,Yes,Good
+HIS1943,Male,21,68,3.7,64,62,68,1,No,Average
+HIS1944,Female,22,35,0.7,31,48,40,5,Yes,At Risk
+HIS1945,Male,17,83,4.2,75,73,65,1,Yes,Good
+HIS1946,Female,19,51,2.0,49,56,51,1,No,Poor
+HIS1947,Female,19,75,4.4,59,59,51,0,Yes,Average
+HIS1948,Male,22,43,1.8,42,32,34,3,Yes,At Risk
+HIS1949,Female,21,63,2.4,58,61,73,1,No,Average
+HIS1950,Female,23,42,0.8,48,40,50,5,Yes,At Risk
+HIS1951,Female,20,91,7.8,93,96,97,0,Yes,Excellent
+HIS1952,Female,18,57,1.2,47,57,57,2,Yes,At Risk
+HIS1953,Female,18,88,4.3,74,71,72,0,No,Excellent
+HIS1954,Female,21,73,2.6,58,55,59,0,No,Average
+HIS1955,Male,18,50,1.1,60,50,44,3,No,At Risk
+HIS1956,Female,18,100,6.3,94,87,94,0,Yes,Excellent
+HIS1957,Female,20,61,2.5,72,66,51,0,Yes,Average
+HIS1958,Male,21,60,1.4,50,45,46,1,Yes,Poor
+HIS1959,Male,18,75,4.3,74,80,77,0,Yes,Good
+HIS1960,Female,23,92,5.6,98,99,94,0,Yes,Excellent
+HIS1961,Female,23,61,2.9,40,54,53,1,No,Average
+HIS1962,Male,17,67,4.7,56,60,58,2,No,Average
+HIS1963,Male,19,82,5.5,87,78,80,0,Yes,Excellent
+HIS1964,Male,18,76,4.3,79,84,67,0,Yes,Excellent
+HIS1965,Female,22,84,4.1,81,71,79,1,No,Good
+HIS1966,Male,19,100,6.9,100,95,88,0,Yes,Excellent
+HIS1967,Male,18,97,6.1,92,99,84,0,Yes,Excellent
+HIS1968,Male,18,85,5.2,88,80,77,1,No,Excellent
+HIS1969,Male,17,57,2.3,54,58,42,1,Yes,Poor
+HIS1970,Male,20,88,6.6,86,92,91,0,Yes,Excellent
+HIS1971,Female,22,100,5.9,86,92,99,0,No,Excellent
+HIS1972,Female,20,65,3.8,58,70,53,0,Yes,Average
+HIS1973,Male,18,67,2.7,69,60,55,0,No,Average
+HIS1974,Male,22,97,5.5,95,93,98,0,Yes,Excellent
+HIS1975,Female,21,36,0.8,39,39,39,5,Yes,At Risk
+HIS1976,Female,21,48,1.9,30,38,44,2,Yes,At Risk
+HIS1977,Male,20,61,1.1,50,46,54,2,No,Poor
+HIS1978,Female,20,56,1.3,59,50,53,1,No,Poor
+HIS1979,Male,20,60,2.6,45,51,58,1,Yes,Poor
+HIS1980,Male,18,77,2.3,74,59,50,2,No,Average
+HIS1981,Female,19,39,0.7,40,43,36,2,Yes,At Risk
+HIS1982,Female,22,42,0.8,37,44,34,5,Yes,At Risk
+HIS1983,Female,17,76,4.9,72,80,86,1,Yes,Excellent
+HIS1984,Male,22,81,5.4,77,90,82,0,Yes,Excellent
+HIS1985,Female,22,77,5.6,72,75,69,0,Yes,Good
+HIS1986,Female,21,76,4.0,58,66,67,0,No,Good
+HIS1987,Male,20,62,1.6,40,43,58,1,No,Poor
+HIS1988,Female,20,69,4.3,55,56,75,1,Yes,Good
+HIS1989,Female,22,45,0.9,40,46,40,5,No,At Risk
+HIS1990,Male,22,63,3.8,59,61,59,2,Yes,Poor
+HIS1991,Female,18,54,1.4,46,45,40,2,Yes,At Risk
+HIS1992,Female,18,38,1.3,33,39,45,2,Yes,At Risk
+HIS1993,Male,17,58,2.2,56,43,60,1,Yes,Poor
+HIS1994,Female,18,88,4.8,70,75,87,0,Yes,Good
+HIS1995,Male,19,85,4.4,82,76,68,0,No,Excellent
+HIS1996,Male,20,83,4.5,86,77,82,0,No,Excellent
+HIS1997,Female,18,35,1.5,48,49,31,2,No,At Risk
+HIS1998,Male,18,63,2.9,47,45,57,1,No,Average
+HIS1999,Female,18,63,2.8,42,56,50,3,Yes,Poor
+HIS2000,Male,18,64,1.2,53,57,49,1,Yes,Poor

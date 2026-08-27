@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+
+{% block title %}
+My Profile
+{% endblock %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h2>My Profile</h2>
+                </div>
+                <div class="card-body">
+                    <div class="profile-section">
+                        <div class="profile-info">
+                            <h4>Account Information</h4>
+                            <div class="info-row">
+                                <label>Username:</label>
+                                <span>{{ username }}</span>
+                            </div>
+                            <div class="info-row">
+                                <label>Role:</label>
+                                <span class="badge bg-info">{{ role | upper }}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="profile-section">
+                        <h4>Account Actions</h4>
+                        <div class="action-buttons">
+                            <button type="button" id="showChangePassword" class="btn btn-accent">
+                                Change Password
+                            </button>
+                            <a href="{{ url_for('logout') }}" class="btn btn-danger">
+                                Logout
+                            </a>
+                        </div>
+                    </div>
+
+                    {% if error %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error }}
+                    </div>
+                    {% endif %}
+
+                    {% if success %}
+                    <div class="alert alert-success" role="alert">
+                        {{ success }}
+                    </div>
+                    {% endif %}
+
+                    <div id="changePasswordPanel" class="change-password-panel">
+                        <h4>Change Password</h4>
+                        <form method="POST" action="{{ url_for('change_password') }}">
+                            <div class="form-group">
+                                <label for="current_password">Current Password</label>
+                                <input type="password" id="current_password" name="current_password" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="new_password">New Password</label>
+                                <input type="password" id="new_password" name="new_password" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password">Confirm New Password</label>
+                                <input type="password" id="confirm_password" name="confirm_password" class="form-control" required>
+                            </div>
+                            <div class="form-buttons">
+                                <button type="submit" class="btn btn-success btn-lg">Save Password</button>
+                                <button type="button" id="cancelChangePassword" class="btn btn-secondary btn-lg">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <hr>
+
+                    <div class="profile-section">
+                        <h4>Role-Based Access</h4>
+                        <div class="access-info">
+                            {% if role == 'admin' %}
+                            <div class="alert alert-success">
+                                <strong>Admin Access</strong>
+                                <ul>
+                                    <li>Upload student data</li>
+                                    <li>View class performance reports</li>
+                                    <li>Manage users</li>
+                                    <li>Generate predictions for all students</li>
+                                </ul>
+                            </div>
+                            {% elif role == 'teacher' %}
+                            <div class="alert alert-info">
+                                <strong>Teacher Access</strong>
+                                <ul>
+                                    <li>View class performance reports</li>
+                                    <li>Predict individual student performance</li>
+                                    <li>Generate recommendations</li>
+                                </ul>
+                            </div>
+                            {% else %}
+                            <div class="alert alert-secondary">
+                                <strong>Student Access</strong>
+                                <ul>
+                                    <li>View own profile</li>
+                                    <li>Get performance predictions</li>
+                                    <li>Receive recommendations</li>
+                                </ul>
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-section h4 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.info-row label {
+    font-weight: 500;
+    color: #666;
+}
+
+.info-row span {
+    color: #333;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.action-buttons .btn {
+    margin-right: 10px;
+}
+
+.access-info ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.access-info li {
+    margin: 5px 0;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .action-buttons {
+        flex-direction: column;
+    }
+    
+    .action-buttons .btn {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+</style>
+
+{% endblock %}

@@ -1,0 +1,284 @@
+{% extends "base.html" %}
+
+{% block title %}
+Uploaded Students
+{% endblock %}
+
+{% block content %}
+
+<div class="page-header">
+    <div>
+        <h1>Uploaded Student Performance</h1>
+        <p class="subtitle">View predicted outcomes, student performance details, and class-level visual insights in one polished dashboard.</p>
+    </div>
+</div>
+
+    <div id="detailsPanel" class="details-panel">
+        <div id="detailsTitle">Showing: All ({{ students|length }})</div>
+        <div class="student-list">
+            <table id="detailsTable">
+                <thead>
+                    <tr><th>Student ID</th><th>Prediction</th><th>Confidence</th></tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+<style>
+    .perf-legend { display:flex; gap:18px; align-items:center; margin:18px 0; }
+    .legend-item { cursor:pointer; display:flex; align-items:center; gap:8px; }
+    .legend-color { width:40px; height:40px; border-radius:50%; box-shadow:0 2px 6px rgba(0,0,0,0.12); }
+    .legend-label { font-weight:600; }
+    .details-panel { margin-top:12px; padding:12px; background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.04); }
+    .student-list { max-height:220px; overflow:auto; margin-top:8px; }
+    .student-list table { width:100%; border-collapse:collapse; }
+    .student-list th, .student-list td { text-align:left; padding:6px 8px; border-bottom:1px solid #eee; }
+</style>
+
+<div class="summary-grid">
+    <div class="chart-legend">
+        <div class="perf-legend">
+            <div class="legend-item" data-type="all" id="legend-all">
+                <div class="legend-color" style="background:#5DA5F2"></div>
+                <div>
+                    <div class="legend-label">All</div>
+                    <div id="count-all">{{ students|length }}</div>
+                </div>
+            </div>
+            <div class="legend-item" data-type="high" id="legend-high">
+                <div class="legend-color" style="background:#33C481"></div>
+                <div>
+                    <div class="legend-label">High</div>
+                    <div id="count-high">0</div>
+                </div>
+            </div>
+            <div class="legend-item" data-type="average" id="legend-average">
+                <div class="legend-color" style="background:#FFC857"></div>
+                <div>
+                    <div class="legend-label">Average</div>
+                    <div id="count-average">0</div>
+                </div>
+            </div>
+            <div class="legend-item" data-type="low" id="legend-low">
+                <div class="legend-color" style="background:#FF6B6B"></div>
+                <div>
+                    <div class="legend-label">Low</div>
+                    <div id="count-low">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="chart-grid">
+    <div class="chart-card summary-card">
+        <h2>Prediction Mix</h2>
+        <canvas id="performanceChart" height="220"></canvas>
+        <div id="performanceInfo" class="performance-info">Click a chart slice to see student counts and prediction breakdown.</div>
+        <div id="predictionBreakdown" class="prediction-breakdown"></div>
+    </div>
+    <div class="chart-card">
+        <h2>Average Confidence</h2>
+        <canvas id="confidenceChart" height="220"></canvas>
+    </div>
+</div>
+
+<div class="table-container">
+    <div class="class-header">
+        <div>
+            <h2>Student Details</h2>
+            <p class="subtitle">Detailed entries show each student record alongside the model prediction and confidence percentage.</p>
+        </div>
+        <input type="text" id="studentSearch" placeholder="Search Student ID" class="search-box">
+    </div>
+
+    <div class="table-responsive">
+        <table id="studentTable" class="student-table">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Attendance</th>
+                    <th>Study Hours</th>
+                    <th>Assignment Score</th>
+                    <th>Internal Marks</th>
+                    <th>Previous Marks</th>
+                    <th>Backlogs</th>
+                    <th>Extracurricular</th>
+                    <th>Prediction</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                <tr data-prediction="{{ student.prediction }}" data-confidence="{{ student.confidence }}">
+                    <td>{{ student.student_id }}</td>
+                    <td>{{ student.gender }}</td>
+                    <td>{{ student.age }}</td>
+                    <td>{{ student.attendance }}</td>
+                    <td>{{ student.study_hours }}</td>
+                    <td>{{ student.assignment_score }}</td>
+                    <td>{{ student.internal_marks }}</td>
+                    <td>{{ student.previous_marks }}</td>
+                    <td>{{ student.backlogs }}</td>
+                    <td>{{ student.extracurricular }}</td>
+                    <td>
+                        {% if student.prediction == "Excellent" %}
+                            <span class="badge badge-success">{{ student.prediction }}</span>
+                        {% elif student.prediction == "Good" %}
+                            <span class="badge badge-info">{{ student.prediction }}</span>
+                        {% elif student.prediction == "Average" %}
+                            <span class="badge badge-warning">{{ student.prediction }}</span>
+                        {% else %}
+                            <span class="badge badge-danger">{{ student.prediction }}</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ student.confidence }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="button-group">
+        <a href="{{ url_for('upload') }}" class="btn btn-secondary">Upload Another File</a>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Back To Dashboard</a>
+    </div>
+</div>
+
+<script>
+
+
+    const studentsData = {{ students | tojson | safe }};
+
+
+
+
+
+
+    function classifyPrediction(pred) {
+        if (!pred) return 'low';
+        const p = String(pred).toLowerCase();
+        if (p === 'excellent' || p === 'good') return 'high';
+        if (p === 'average') return 'average';
+        return 'low';
+    }
+
+    function computeCounts(data) {
+        const counts = { all: data.length, high: 0, average: 0, low: 0 };
+        data.forEach(s => {
+            const c = classifyPrediction(s.prediction);
+            counts[c] = (counts[c] || 0) + 1;
+        });
+        return counts;
+    }
+
+    function updateCountsUI(counts) {
+        document.getElementById('count-all').textContent = counts.all;
+        document.getElementById('count-high').textContent = counts.high;
+        document.getElementById('count-average').textContent = counts.average;
+        document.getElementById('count-low').textContent = counts.low;
+        document.getElementById('detailsTitle').textContent = 'Showing: All (' + counts.all + ')';
+    }
+
+    function buildDetailsList(filtered) {
+        const tbody = document.querySelector('#detailsTable tbody');
+        tbody.innerHTML = '';
+        filtered.forEach(s => {
+            const tr = document.createElement('tr');
+            const id = document.createElement('td'); id.textContent = s.student_id || '';
+            const pred = document.createElement('td'); pred.textContent = s.prediction || '';
+            const conf = document.createElement('td'); conf.textContent = (s.confidence!==undefined? s.confidence + '%':'');
+            tr.appendChild(id); tr.appendChild(pred); tr.appendChild(conf);
+            tbody.appendChild(tr);
+        });
+    }
+
+    function filterTableBy(type) {
+        const rows = document.querySelectorAll('#studentTable tbody tr');
+        const filtered = [];
+        rows.forEach(r => {
+            const pred = r.dataset.prediction;
+            const mapped = classifyPrediction(pred);
+            const show = (type === 'all') || (mapped === type);
+            r.style.display = show ? '' : 'none';
+            if (show) {
+                filtered.push({ student_id: r.cells[0].textContent.trim(), prediction: r.cells[10].textContent.trim(), confidence: r.dataset.confidence });
+            }
+        });
+        document.getElementById('detailsTitle').textContent = 'Showing: ' + (type.charAt(0).toUpperCase() + type.slice(1)) + ' (' + filtered.length + ')';
+        buildDetailsList(filtered);
+    }
+
+    document.addEventListener('DOMContentLoaded', function init() {
+        if (typeof Chart === 'undefined') {
+            console.warn('Chart.js is not available when the upload_result_new.html dashboard script initializes.');
+            return;
+        }
+
+        const counts = computeCounts(studentsData);
+        updateCountsUI(counts);
+
+        const perfCanvas = document.getElementById('performanceChart');
+        if (!perfCanvas) {
+            console.warn('The performanceChart canvas is missing.');
+            return;
+        }
+
+        const ctx = perfCanvas.getContext('2d');
+        const performanceChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['High','Average','Low'],
+                datasets: [{
+                    data: [counts.high, counts.average, counts.low],
+                    backgroundColor: ['#33C481','#FFC857','#FF6B6B']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                onClick: (evt, activeEls) => {
+                    if (activeEls && activeEls.length) {
+                        const idx = activeEls[0].index;
+                        const map = ['high','average','low'];
+                        filterTableBy(map[idx]);
+                    }
+                }
+            }
+        });
+
+        // legend clicks
+        document.querySelectorAll('.legend-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const type = item.dataset.type;
+                if (type === 'all') {
+                    document.querySelectorAll('#studentTable tbody tr').forEach(r => r.style.display = '');
+                    buildDetailsList(studentsData.map(s => ({ student_id: s.student_id, prediction: s.prediction, confidence: s.confidence })));
+                    const detailsTitle = document.getElementById('detailsTitle');
+                    if (detailsTitle) {
+                        detailsTitle.textContent = 'Showing: All (' + studentsData.length + ')';
+                    }
+                } else {
+                    filterTableBy(type);
+                }
+            });
+        });
+
+        // initialize details list with all
+        buildDetailsList(studentsData.map(s => ({ student_id: s.student_id, prediction: s.prediction, confidence: s.confidence })));
+
+        // search box filter
+        const searchBox = document.getElementById('studentSearch');
+        if (searchBox) {
+            searchBox.addEventListener('input', (e) => {
+                const q = e.target.value.trim().toLowerCase();
+                document.querySelectorAll('#studentTable tbody tr').forEach(r => {
+                    const sid = r.cells[0].textContent.trim().toLowerCase();
+                    r.style.display = sid.includes(q) ? '' : 'none';
+                });
+            });
+        }
+    });

@@ -1,0 +1,203 @@
+{% extends "base.html" %}
+
+{% block title %}
+Upload Real Student Data
+{% endblock %}
+
+{% block content %}
+
+<div class="form-grid">
+    <div class="form-box">
+        <h1>Upload Real Student Data</h1>
+
+        {% if error %}
+        <div class="alert alert-danger">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        {% if success %}
+        <div class="alert alert-success">
+            {{ success }}
+        </div>
+        {% endif %}
+
+        <form method="POST" enctype="multipart/form-data" id="uploadForm">
+            <input type="hidden" name="form_type" value="upload">
+            <div class="form-group">
+                <label for="file">Select CSV File</label>
+                <input 
+                    type="file"
+                    id="file"
+                    name="file"
+                    accept=".csv"
+                    required
+                    class="form-control">
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn btn-primary btn-lg">
+                    ⬆ Upload CSV
+                </button>
+                <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">
+                    ← Back
+                </a>
+            </div>
+        </form>
+
+        <div class="info-box">
+            <h3>📋 Required CSV Columns:</h3>
+            <ul>
+                <li><strong>student_id</strong> - Unique student identifier</li>
+                <li><strong>gender</strong> - Male/Female</li>
+                <li><strong>age</strong> - Student age</li>
+                <li><strong>attendance</strong> - Attendance percentage</li>
+                <li><strong>study_hours</strong> - Hours spent studying</li>
+                <li><strong>assignment_score</strong> - Assignment marks</li>
+                <li><strong>internal_marks</strong> - Internal exam marks</li>
+                <li><strong>previous_marks</strong> - Previous semester marks</li>
+                <li><strong>backlogs</strong> - Number of backlogs</li>
+                <li><strong>extracurricular</strong> - Extracurricular participation</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="form-box">
+        <h1>Add Single Student</h1>
+
+        <!-- <div class="student-card">
+            <div class="student-card-title">Single student quick-add</div>
+            <p class="student-card-copy">Use this card to save one new real student record straight into the dataset. It helps you keep the prediction model aligned with fresh, real-world entries.</p>
+            <div class="student-card-features">
+                <div class="feature-item"><span>✅</span> Fast single-record entry</div>
+                <div class="feature-item"><span>📈</span> Keep real data current</div>
+                <div class="feature-item"><span>🛡</span> Saves directly to <strong>real_students.csv</strong></div>
+            </div>
+        </div> -->
+
+        <form method="POST" id="singleStudentForm">
+            <input type="hidden" name="form_type" value="single">
+            <div class="grid-columns">
+                <div class="form-group">
+                    <label for="student_id">Student ID</label>
+                    <input type="text" id="student_id" name="student_id" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" class="form-control" required>
+                        <option value="">Select gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" class="form-control" min="1" required>
+                </div>
+                <div class="form-group">
+                    <label for="attendance">Attendance (%)</label>
+                    <input type="number" id="attendance" name="attendance" class="form-control" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="study_hours">Study Hours</label>
+                    <input type="number" id="study_hours" name="study_hours" class="form-control" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="assignment_score">Assignment Score</label>
+                    <input type="number" id="assignment_score" name="assignment_score" class="form-control" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="internal_marks">Internal Marks</label>
+                    <input type="number" id="internal_marks" name="internal_marks" class="form-control" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="previous_marks">Previous Marks</label>
+                    <input type="number" id="previous_marks" name="previous_marks" class="form-control" min="0" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="backlogs">Backlogs</label>
+                    <input type="number" id="backlogs" name="backlogs" class="form-control" min="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="extracurricular">Extracurricular</label>
+                    <select id="extracurricular" name="extracurricular" class="form-control" required>
+                        <option value="">Select option</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-buttons">
+                <button type="submit" class="btn btn-primary btn-lg">
+                    + Save Student
+                </button>
+                <button type="button" id="predictSingleBtn" class="btn btn-accent btn-lg">Predict</button>
+            </div>
+        </form>
+
+        <div id="singlePredictResult" class="details-panel" style="margin-top:12px; display:none;">
+            <h3>Prediction Preview</h3>
+            <div id="predInfo"></div>
+            <canvas id="singleStudentChart" height="120"></canvas>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+    const btn = document.getElementById('predictSingleBtn');
+    btn && btn.addEventListener('click', async () => {
+        const row = {
+            student_id: document.getElementById('student_id').value.trim(),
+            gender: document.getElementById('gender').value,
+            age: document.getElementById('age').value,
+            attendance: document.getElementById('attendance').value,
+            study_hours: document.getElementById('study_hours').value,
+            assignment_score: document.getElementById('assignment_score').value,
+            internal_marks: document.getElementById('internal_marks').value,
+            previous_marks: document.getElementById('previous_marks').value,
+            backlogs: document.getElementById('backlogs').value,
+            extracurricular: document.getElementById('extracurricular').value
+        };
+
+        try {
+            const resp = await fetch('/api/predict-row', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ row })
+            });
+            const data = await resp.json();
+            if (data.error) {
+                document.getElementById('predInfo').textContent = 'Error: ' + data.error;
+                document.getElementById('singlePredictResult').style.display = '';
+                return;
+            }
+
+            document.getElementById('predInfo').innerHTML = '<strong>Prediction:</strong> ' + data.prediction + ' &nbsp; <strong>Confidence:</strong> ' + data.confidence + '%';
+            document.getElementById('singlePredictResult').style.display = '';
+
+            // draw chart
+            const prob = data.probabilities || {};
+            const labels = Object.keys(prob);
+            const values = labels.map(l => prob[l]);
+            const colors = ['#33C481','#FFC857','#FF6B6B','#5DA5F2'];
+            const ctx = document.getElementById('singleStudentChart').getContext('2d');
+            if (window._singleChart) window._singleChart.destroy();
+            window._singleChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: { labels, datasets: [{ data: values, backgroundColor: colors.slice(0, labels.length) }] },
+                options: { responsive:true, plugins:{ legend:{position:'bottom' } } }
+            });
+
+        } catch (e) {
+            document.getElementById('predInfo').textContent = 'Request failed: ' + e.message;
+            document.getElementById('singlePredictResult').style.display = '';
+        }
+    });
+});
+</script>
+{% endblock %}

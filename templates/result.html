@@ -1,0 +1,528 @@
+{% extends "base.html" %}
+
+{% block title %}
+Prediction Result
+{% endblock %}
+
+
+{% block content %}
+
+{% if error %}
+
+<div class="error">
+    {{ error }}
+</div>
+
+{% else %}
+
+<div class="result-card">
+
+    <h1>
+        Prediction Result
+    </h1>
+
+
+    <h2>
+        Student ID:
+        {{ result.student_id }}
+    </h2>
+
+
+    <div class="prediction">
+        {{ result.prediction }}
+    </div>
+
+
+    <h3>
+        Confidence:
+        {{ result.confidence }}%
+    </h3>
+
+
+    <!-- ======================================
+         PREDICTION PROBABILITIES
+         ====================================== -->
+
+    <div
+        id="studentChartPanel"
+        style="margin-top: 20px;"
+    >
+
+        <h3>
+            Prediction Probabilities
+        </h3>
+
+
+        <div
+            style="
+                position: relative;
+                width: 100%;
+                max-width: 500px;
+                height: 300px;
+                margin: 0 auto;
+            "
+        >
+
+            <canvas
+                id="resultStudentChart"
+            ></canvas>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================
+         STUDENT DETAILS
+         ====================================== -->
+
+    {% if result.student_details %}
+
+    <div class="student-details-panel">
+
+        <h3>
+            Student Details
+        </h3>
+
+
+        <table class="detail-table">
+
+            <tbody>
+
+                <tr>
+                    <th>Student ID</th>
+                    <td>
+                        {{ result.student_details.student_id }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        {{ result.student_details.gender }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Age</th>
+                    <td>
+                        {{ result.student_details.age }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Attendance</th>
+                    <td>
+                        {{ result.student_details.attendance }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Study Hours</th>
+                    <td>
+                        {{ result.student_details.study_hours }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Assignment Score</th>
+                    <td>
+                        {{ result.student_details.assignment_score }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Internal Marks</th>
+                    <td>
+                        {{ result.student_details.internal_marks }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Previous Marks</th>
+                    <td>
+                        {{ result.student_details.previous_marks }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Backlogs</th>
+                    <td>
+                        {{ result.student_details.backlogs }}
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <th>Extracurricular</th>
+                    <td>
+                        {{ result.student_details.extracurricular }}
+                    </td>
+                </tr>
+
+
+                <tr>
+
+                    <th>
+                        Predicted Class
+                    </th>
+
+                    <td>
+
+                        <span
+                            class="
+                                result-badge
+
+                                {% if result.prediction == 'Excellent' %}
+                                    badge-excellent
+
+                                {% elif result.prediction == 'Good' %}
+                                    badge-good
+
+                                {% elif result.prediction == 'Average' %}
+                                    badge-average
+
+                                {% else %}
+                                    badge-low
+                                {% endif %}
+                            "
+                        >
+                            {{ result.prediction }}
+                        </span>
+
+                    </td>
+
+                </tr>
+
+
+                <tr>
+
+                    <th>
+                        Confidence
+                    </th>
+
+                    <td>
+                        {{ result.confidence }}%
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    {% endif %}
+
+
+    <!-- ======================================
+         RECOMMENDATIONS
+         ====================================== -->
+
+    <h2>
+        Recommendations
+    </h2>
+
+
+    <ul>
+
+        {% for item in recommendations %}
+
+        <li>
+            {{ item }}
+        </li>
+
+        {% endfor %}
+
+    </ul>
+
+
+</div>
+
+{% endif %}
+
+{% endblock %}
+
+
+
+<!-- ==========================================
+     JAVASCRIPT
+     ========================================== -->
+
+{% block scripts %}
+
+<script>
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        const probabilities =
+            {{ result.probabilities | tojson
+               if result and result.probabilities
+               else 'null' }};
+
+
+        console.log(
+            "Prediction probabilities:",
+            probabilities
+        );
+
+
+        if (!probabilities) {
+
+            console.warn(
+                "No prediction probabilities available."
+            );
+
+            return;
+        }
+
+
+        const canvas =
+            document.getElementById(
+                "resultStudentChart"
+            );
+
+
+        if (!canvas) {
+
+            console.error(
+                "Probability chart canvas not found."
+            );
+
+            return;
+        }
+
+
+        if (
+            typeof window.Chart ===
+            "undefined"
+        ) {
+
+            console.error(
+                "Chart.js is not loaded."
+            );
+
+            return;
+        }
+
+
+        const labels =
+            Object.keys(
+                probabilities
+            );
+
+
+        const values =
+            labels.map(
+                function (label) {
+
+                    return (
+                        Number(
+                            probabilities[label]
+                        ) || 0
+                    );
+
+                }
+            );
+
+
+        const colors = [
+
+            "#10b981",  // Green
+
+            "#3b82f6",  // Blue
+
+            "#f59e0b",  // Orange
+
+            "#ef4444"   // Red
+
+        ];
+
+
+        new Chart(
+            canvas,
+            {
+
+                type: "doughnut",
+
+
+                data: {
+
+                    labels: labels,
+
+
+                    datasets: [
+
+                        {
+
+                            data: values,
+
+
+                            backgroundColor:
+                                colors.slice(
+                                    0,
+                                    labels.length
+                                ),
+
+
+                            borderColor:
+                                "#ffffff",
+
+
+                            borderWidth: 2
+
+                        }
+
+                    ]
+
+                },
+
+
+                options: {
+
+                    responsive: true,
+
+                    maintainAspectRatio: false,
+
+
+                    plugins: {
+
+                        legend: {
+
+                            position: "bottom"
+
+                        },
+
+
+                        tooltip: {
+
+                            callbacks: {
+
+                                label:
+                                    function (
+                                        context
+                                    ) {
+
+                                        const value =
+                                            context.raw;
+
+
+                                        return (
+                                            context.label +
+                                            ": " +
+                                            value +
+                                            "%"
+                                        );
+
+                                    }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        );
+
+    }
+);
+
+</script>
+
+
+<style>
+
+.detail-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 12px;
+
+}
+
+
+.detail-table th,
+.detail-table td {
+
+    text-align: left;
+
+    padding: 8px;
+
+    border-bottom:
+        1px solid #eee;
+
+}
+
+
+.result-meta {
+
+    display: flex;
+
+    gap: 18px;
+
+    align-items: center;
+
+    margin-top: 12px;
+
+}
+
+
+.result-badge {
+
+    padding: 6px 10px;
+
+    border-radius: 6px;
+
+    color: #fff;
+
+    font-weight: 600;
+
+}
+
+
+.badge-excellent {
+
+    background: #10b981;
+
+}
+
+
+.badge-good {
+
+    background: #3b82f6;
+
+}
+
+
+.badge-average {
+
+    background: #f59e0b;
+
+}
+
+
+.badge-low {
+
+    background: #ef4444;
+
+}
+
+</style>
+
+{% endblock %}

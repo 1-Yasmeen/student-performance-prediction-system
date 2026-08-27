@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}
+Uploaded Students
+{% endblock %}
+
+
+{% block content %}
+
+<div class="page-header">
+    <div>
+        <h1>Uploaded Student Performance</h1>
+        <p class="subtitle">View predicted outcomes, student performance details, and class-level visual insights in one polished dashboard.</p>
+    </div>
+</div>
+
+<div class="summary-grid">
+    <div class="stat-card">
+        <h3>Total Students</h3>
+        <p id="overallTotal">{{ students|length }}</p>
+    </div>
+    <div class="stat-card">
+        <h3>High / Excellent</h3>
+        <p id="highCount">0</p>
+    </div>
+    <div class="stat-card">
+        <h3>Average</h3>
+        <p id="averageCount">0</p>
+    </div>
+    <div class="stat-card">
+        <h3>Low / Poor</h3>
+        <p id="lowCount">0</p>
+    </div>
+    <div class="stat-card">
+        <h3>Avg Confidence</h3>
+        <p id="averageConfidence">0%</p>
+    </div>
+</div>
+
+<div class="chart-grid">
+    <div class="chart-card summary-card">
+        <h2>Prediction Mix</h2>
+        <canvas id="performanceChart" height="220"></canvas>
+        <div id="performanceInfo" class="performance-info">Click a chart slice to see student counts and prediction breakdown.</div>
+        <div id="predictionBreakdown" class="prediction-breakdown"></div>
+    </div>
+    <div class="chart-card">
+        <h2>Average Confidence</h2>
+        <canvas id="confidenceChart" height="220"></canvas>
+    </div>
+</div>
+
+<div class="table-container">
+    <div class="class-header">
+        <div>
+            <h2>Student Details</h2>
+            <p class="subtitle">Detailed entries show each student record alongside the model prediction and confidence percentage.</p>
+        </div>
+        <input type="text" id="studentSearch" placeholder="Search Student ID" class="search-box">
+    </div>
+
+    <div class="table-responsive">
+        <table id="studentTable" class="student-table">
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Attendance</th>
+                    <th>Study Hours</th>
+                    <th>Assignment Score</th>
+                    <th>Internal Marks</th>
+                    <th>Previous Marks</th>
+                    <th>Backlogs</th>
+                    <th>Extracurricular</th>
+                    <th>Prediction</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for student in students %}
+                <tr data-prediction="{{ student.prediction }}" data-confidence="{{ student.confidence }}">
+                    <td>{{ student.student_id }}</td>
+                    <td>{{ student.gender }}</td>
+                    <td>{{ student.age }}</td>
+                    <td>{{ student.attendance }}</td>
+                    <td>{{ student.study_hours }}</td>
+                    <td>{{ student.assignment_score }}</td>
+                    <td>{{ student.internal_marks }}</td>
+                    <td>{{ student.previous_marks }}</td>
+                    <td>{{ student.backlogs }}</td>
+                    <td>{{ student.extracurricular }}</td>
+                    <td>
+                        {% if student.prediction == "Excellent" %}
+                            <span class="badge badge-success">{{ student.prediction }}</span>
+                        {% elif student.prediction == "Good" %}
+                            <span class="badge badge-info">{{ student.prediction }}</span>
+                        {% elif student.prediction == "Average" %}
+                            <span class="badge badge-warning">{{ student.prediction }}</span>
+                        {% else %}
+                            <span class="badge badge-danger">{{ student.prediction }}</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ student.confidence }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="button-group">
+        <a href="{{ url_for('upload') }}" class="btn btn-secondary">Upload Another File</a>
+        <a href="{{ url_for('dashboard') }}" class="btn btn-primary">Back To Dashboard</a>
+    </div>
+</div>
+
+<script>
+    const studentsData = {{ students|tojson }};
+</script>
+
+{% endblock %}

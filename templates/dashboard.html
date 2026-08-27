@@ -1,0 +1,253 @@
+{% extends "base.html" %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+
+{% block content %}
+
+<div class="dashboard-container">
+
+    <!-- Dashboard Header -->
+    <div class="dashboard-header">
+
+        <h1>
+            Student Performance Prediction Dashboard
+        </h1>
+
+        <p>
+            Welcome,
+            <strong>{{ username }}</strong>
+        </p>
+
+        <p class="role">
+            Role:
+            {{ role }}
+        </p>
+
+    </div>
+
+
+    <!-- Dashboard Cards -->
+    <div class="card-container">
+
+
+        <!-- ================= ADMIN DASHBOARD ================= -->
+
+        {% if role == "admin" %}
+
+        <div class="card">
+
+            <h2>
+                Student Prediction
+            </h2>
+
+            <p>
+                Search any student and predict performance.
+            </p>
+
+            <a href="{{ url_for('student_data_selection') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Class Performance
+            </h2>
+
+            <p>
+                View complete class prediction analysis.
+            </p>
+
+            <a href="{{ url_for('class_data_selection') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Upload Student Data
+            </h2>
+
+            <p>
+                Upload new real student CSV data.
+            </p>
+
+            <a href="{{ url_for('upload') }}"
+               class="btn">
+                Upload
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Reports
+            </h2>
+
+            <p>
+                Generate and view performance reports.
+            </p>
+
+            <a href="{{ url_for('reports') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Manage Users
+            </h2>
+
+            <p>
+                Add, update and manage system users.
+            </p>
+
+            <a href="{{ url_for('manage_users') }}"
+               class="btn">
+                Manage
+            </a>
+
+        </div>
+
+        {% endif %}
+
+
+
+        <!-- ================= TEACHER DASHBOARD ================= -->
+
+        {% if role == "teacher" %}
+
+        <div class="card">
+
+            <h2>
+                Student Prediction
+            </h2>
+
+            <p>
+                Predict student performance.
+            </p>
+
+            <a href="{{ url_for('student_data_selection') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Class Performance
+            </h2>
+
+            <p>
+                Analyze complete class results.
+            </p>
+
+            <a href="{{ url_for('class_data_selection') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                Reports
+            </h2>
+
+            <p>
+                View student performance reports.
+            </p>
+
+            <a href="{{ url_for('reports') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+        {% endif %}
+
+
+
+        <!-- ================= STUDENT DASHBOARD ================= -->
+
+        {% if role == "student" %}
+
+        <div class="card">
+
+            <h2>
+                My Performance
+            </h2>
+
+            <p>
+                View your predicted performance.
+            </p>
+
+            <a href="{{ url_for('student_prediction') }}"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+
+        <div class="card">
+
+            <h2>
+                My Report
+            </h2>
+
+            <p>
+                View your recommendations and improvement areas.
+            </p>
+
+            <a href="#"
+               class="btn">
+                Open
+            </a>
+
+        </div>
+
+        {% endif %}
+
+
+    </div>
+
+
+    <!-- Logout -->
+
+    <div class="logout-section">
+
+        <a href="{{ url_for('logout') }}"
+           class="logout-btn">
+            Logout
+        </a>
+
+    </div>
+
+
+</div>
+
+{% endblock %}
